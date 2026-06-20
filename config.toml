@@ -1,0 +1,34 @@
+base_url = "http://127.0.0.1:1111"
+title = "komar's blog"
+description = "A Zola example site with one converted post"
+compile_sass = true
+theme = "apollo"
+generate_feeds = true
+build_search_index = false
+
+[[taxonomies]]
+name = "tags"
+
+[markdown.highlighting]
+style = "class"
+light_theme = "github-light"
+dark_theme = "github-dark"
+error_on_missing_language = false
+
+[extra]
+theme = "toggle"
+toc = true
+use_cdn = false
+favicon = "/icon/favicon.png"
+fancy_code = true
+dynamic_note = true
+mathjax = true
+menu = [
+    { name = "/posts", url = "/posts", weight = 1 },
+    { name = "Home", url = "/", weight = 2 },
+]
+
+[[extra.socials]]
+name = "github"
+url = "https://github.com/komar007/"
+icon = "github"

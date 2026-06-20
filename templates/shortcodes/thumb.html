@@ -1,0 +1,6 @@
+{% set dir = page.relative_path | split(pat="/") | slice(end=-1) | join(sep="/") %}
+{% set img_path = dir ~ "/" ~ path %}
+{% set w = width | default(value=150) %}
+{% set h = height | default(value=w) %}
+{% set img = resize_image(path=img_path, width=w, height=h, op="fill", format="jpg", quality=82) %}
+<img src="{{ img.url }}" alt="{{ alt }}" loading="lazy" />
