@@ -24,6 +24,26 @@
               rev = "d78aa62f29edfeabbdc353c313fbb8af6a54d2c1";
               hash = "sha256-1CcpnPbgE+Q+1O7SbrnXUENqZ5glj1woiVA7Jg1CRdI=";
             };
+            lightbox = pkgs.buildNpmPackage {
+              pname = "lightbox";
+              version = "1.1.0";
+
+              # Replace with your actual source or git repository
+              src = pkgs.fetchFromGitHub {
+                owner = "lokesh";
+                repo = "lightbox3";
+                rev = "v1.1.0";
+                hash = "sha256-6sLGrk9evIhMPbyoK4PMAvQJkEJhqTAE00a3V+EeZoM=";
+              };
+
+              # Generate this by running 'npm install --package-lock-only'
+              npmDepsHash = "sha256-RFVt0BY8cXl2RGgknCcVv2XgtglJOKk1ksW7kwBPZZs=";
+
+              installPhase = ''
+                mkdir -p $out
+                cp -r dist/* $out/
+              '';
+            };
             src = pkgs.symlinkJoin {
               name = "src";
               paths = [
@@ -32,6 +52,16 @@
                   {
                     name = "themes/apollo";
                     path = apolloTheme;
+                  }
+                ])
+                (pkgs.linkFarm "lightbox" [
+                  {
+                    name = "static/js/lightbox3.min.js";
+                    path = "${lightbox}/lightbox3.min.js";
+                  }
+                  {
+                    name = "static/js/lightbox3.css";
+                    path = "${lightbox}/lightbox3.css";
                   }
                 ])
               ];

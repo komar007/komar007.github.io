@@ -3,4 +3,4 @@
 {% set w = width | default(value=150) %}
 {% set h = height | default(value=w) %}
 {% set img = resize_image(path=img_path, width=w, height=h, op="fill", format="jpg", quality=82) %}
-<img src="{{ img.url }}" alt="{{ alt }}" loading="lazy" />
+<img src="{{ img.url }}" alt="{{ alt }}" loading="lazy" data-lightbox="gallery" />
