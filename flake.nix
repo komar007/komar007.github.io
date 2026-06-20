@@ -95,6 +95,20 @@
                 nativeBuildInputs = [ pkgs.typos ];
               } "cd ${self} && typos . && touch $out";
             };
+            packages.serve = pkgs.writeShellApplication {
+              name = "serve";
+              runtimeInputs = [ pkgs.zola ];
+              text = ''
+                D=$(mktemp -d)
+                cleanup() {
+                  rm -fr "$D"
+                }
+                trap cleanup EXIT
+                cp -Lr ${src}/* "$D"
+                chmod +w "$D" -R
+                zola -r "$D" serve
+              '';
+            };
           };
       }
     );
