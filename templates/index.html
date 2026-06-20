@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block main_content %}
+    <main>
+        <article>
+            <section class="body">
+                {{ section.content | safe }}
+            </section>
+        </article>
+    </main>
+
+    {% set posts_section = get_section(path="posts/_index.md") %}
+
+    {% if posts_section.pages %}
+    <main class="post-list">
+        <h2>Recent posts</h2>
+        {{ post_macros::list_posts(pages=posts_section.pages | slice(end=5)) }}
+    </main>
+    {% endif %}
+{% endblock main_content %}
