@@ -1,4 +1,4 @@
-base_url = "http://127.0.0.1:1111"
+base_url = "https://komar007.github.io"
 title = "komar's blog"
 description = "A Zola example site with one converted post"
 compile_sass = true
