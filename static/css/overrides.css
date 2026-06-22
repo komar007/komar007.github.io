@@ -1,0 +1,19 @@
+main img {
+}
+main a:not(:last-child) img {
+  margin-right: 1em;
+}
+main a:has(> img) {
+  border-bottom: none;
+}
+main a:has(> img):hover {
+  background-color: transparent;
+}
+main a:hover img {
+  outline: 1mm solid var(--primary-color);
+  outline-offset: 0;
+  box-shadow: 0 0 1em var(--primary-color);
+}
+:root.dark img[src$=".png"] {
+  filter: invert(1);
+}
