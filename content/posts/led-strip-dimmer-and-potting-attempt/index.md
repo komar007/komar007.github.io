@@ -46,10 +46,8 @@ turns the LED load on. This means that the LEDs are on while C1 charges and off 
 After building a breadboard prototype and verifying that it works, I decided to keep the size as
 small as possible and built the circuit without any PCB by directly soldering wires together.
 
-<a href="IMG_20140513_212800663-e1400062001349.jpg">{{
-thumb(path="IMG_20140513_212800663-e1400062001349.jpg", alt="Dimmer front") }}</a>
-<a href="IMG_20140513_212808127-e1400062027201.jpg">{{
-thumb(path="IMG_20140513_212808127-e1400062027201.jpg", alt="Dimmer back") }}</a>
+{{ link_thumb(path="IMG_20140513_212800663-e1400062001349.jpg", alt="Dimmer front") }}
+{{ link_thumb(path="IMG_20140513_212808127-e1400062027201.jpg", alt="Dimmer back") }}
 
 *Dimmer front (left) and back (right)*
 
@@ -61,9 +59,8 @@ was going to use wouldn't prevent it from turning. Next, I connected the two bun
 (Output to the remaining pin of the pot and C1's sense line to Trigger and Threshold) and added the
 transistor.
 
-<a href="IMG_20140513_224857531.jpg">{{ thumb(path="IMG_20140513_224857531.jpg", alt="The dimmer in
-a plastic case") }}</a> <a href="IMG_20140513_225909237.jpg">{{
-thumb(path="IMG_20140513_225909237.jpg", alt="3 walls done") }}</a>
+{{ link_thumb(path="IMG_20140513_224857531.jpg", alt="The dimmer in a plastic case") }}
+{{ link_thumb(path="IMG_20140513_225909237.jpg", alt="3 walls done") }}
 
 *The dimmer in a plastic case (left) and 3 walls done (right)*
 
@@ -75,9 +72,8 @@ there's a hole in the angle bar to allow for brightness control. After the left 
 some reason, I added the top one and filled everything with even more glue, treating it as a (very
 poor) potting compound.
 
-<a href="IMG_20140513_230359925_HDR.jpg">{{ thumb(path="IMG_20140513_230359925_HDR.jpg", alt="All
-walls but one") }}</a> <a href="IMG_20140513_231321595_HDR.jpg">{{
-thumb(path="IMG_20140513_231321595_HDR.jpg", alt="The last wall glued") }}</a>
+{{ link_thumb(path="IMG_20140513_230359925_HDR.jpg", alt="All walls but one") }}
+{{ link_thumb(path="IMG_20140513_231321595_HDR.jpg", alt="The last wall glued") }}
 
 *All walls but one (left) and the last wall glued (right)*
 
@@ -90,12 +86,10 @@ box. I used a drill with a grinding disc to cut the plastic and then sandpaper t
 edges. This took a while but I was left with a not-very-nice-looking final product which I'm still
 pretty satisfied with. Below, you can see pictures of the final stage:
 
-<a href="IMG_20140514_091513204.jpg">{{ thumb(path="IMG_20140514_091513204.jpg",
-alt="IMG_20140514_091513204") }}</a> <a href="IMG_20140514_091517969.jpg">{{
-thumb(path="IMG_20140514_091517969.jpg", alt="IMG_20140514_091517969") }}</a>
-<a href="IMG_20140514_091742749.jpg">{{ thumb(path="IMG_20140514_091742749.jpg",
-alt="IMG_20140514_091742749") }}</a> <a href="IMG_20140514_091523831.jpg">{{
-thumb(path="IMG_20140514_091523831.jpg", alt="IMG_20140514_091523831") }}</a>
+{{ link_thumb(path="IMG_20140514_091513204.jpg", alt="IMG_20140514_091513204") }}
+{{ link_thumb(path="IMG_20140514_091517969.jpg", alt="IMG_20140514_091517969") }}
+{{ link_thumb(path="IMG_20140514_091742749.jpg", alt="IMG_20140514_091742749") }}
+{{ link_thumb(path="IMG_20140514_091523831.jpg", alt="IMG_20140514_091523831") }}
 
 As you can see, it's not a very pretty device, but hopefully it will work. Now I'll wait for the LED
 strip to arrive to check it. My only concern is that when the transistor gets warm it might start to
@@ -103,19 +97,18 @@ melt the glue, and then the whole thing might fall apart. But time will show...
 
 ### Testing
 
-<a href="VOLTCRAFT5_4.png">{{ thumb(path="VOLTCRAFT5_4.png", alt="LEDs nearly off") }}</a>
-<a href="VOLTCRAFT5_1.png">{{ thumb(path="VOLTCRAFT5_1.png", alt="duty cycle \< 50%") }}</a>
-<a href="VOLTCRAFT5_2.png">{{ thumb(path="VOLTCRAFT5_2.png", alt="duty cycle about 50%") }}</a>
-<a href="VOLTCRAFT5_3.png">{{ thumb(path="VOLTCRAFT5_3.png", alt="duty cycle \> 50%") }}</a>
-<a href="VOLTCRAFT5_5.png">{{ thumb(path="VOLTCRAFT5_5.png", alt="LEDs nearly on") }}</a>
+{{ link_thumb(path="VOLTCRAFT5_4.png", alt="LEDs nearly off") }}
+{{ link_thumb(path="VOLTCRAFT5_1.png", alt="duty cycle \< 50%") }}
+{{ link_thumb(path="VOLTCRAFT5_2.png", alt="duty cycle about 50%") }}
+{{ link_thumb(path="VOLTCRAFT5_3.png", alt="duty cycle \> 50%") }}
+{{ link_thumb(path="VOLTCRAFT5_5.png", alt="LEDs nearly on") }}
 
 *From left to right: minimum brightness, duty cycle \< 50%, ~50%, \> 50%, maximum brightness*
 
 I hooked the dimmer up to some 3 white LEDs and a limiting resistor to test if everything worked
 okay.
 
-<a href="IMG_20140514_092834215.jpg">{{ thumb(path="IMG_20140514_092834215.jpg", alt="LEDs and
-oscilloscope") }}</a>
+{{ link_thumb(path="IMG_20140514_092834215.jpg", alt="LEDs and oscilloscope") }}
 
 It did;)
 
