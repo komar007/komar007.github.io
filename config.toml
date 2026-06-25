@@ -4,7 +4,7 @@ description = "A Zola example site with one converted post"
 compile_sass = true
 theme = "apollo"
 generate_feeds = true
-build_search_index = false
+build_search_index = true
 
 [[taxonomies]]
 name = "tags"
@@ -28,6 +28,13 @@ menu = [
     { name = "/tags", url = "/tags", weight = 2 },
     { name = "$HOME", url = "/", weight = 3 },
 ]
+
+[search]
+include_title = true
+include_description = true
+include_path = true
+include_content = true
+index_format = "elasticlunr_json"
 
 [[extra.socials]]
 name = "github"
