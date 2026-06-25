@@ -18,9 +18,11 @@
                         {% endif %}
 
                         {% if page.taxonomies.tags %}
-                            {% for tag in page.taxonomies.tags %}
-                                <a class="tag" href="{{ get_taxonomy_url(kind="tags", name=tag) }}">{{ tag }}</a>
-                            {% endfor %}
+                            <span class="tags-h1">
+                                {% for tag in page.taxonomies.tags %}
+                                    <a class="tag" href="{{ get_taxonomy_url(kind="tags", name=tag) }}">{{ tag }}</a>
+                                {% endfor %}
+                            </span>
                         {% endif %}
                     </h1>
 
