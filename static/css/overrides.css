@@ -1,9 +1,13 @@
-main img {
+/* General */
+a.social img[alt="printables"] {
+  border-radius: 0;
 }
 .right-nav {
   font-family: monospace;
   font-size: 1.4em;
 }
+
+/* Article */
 main a:not(:last-child) img {
   margin-right: 1em;
 }
@@ -22,6 +26,7 @@ main a:hover img {
   filter: invert(1);
 }
 
+/* Tags */
 .post-header > div,
 .meta {
   display: flow-root;
@@ -47,6 +52,7 @@ main a:hover img {
   opacity: 0.75;
 }
 
+/* Search box */
 .search-modal #modal-content {
   box-shadow: 0 0 10px rgba(0,0,0,0.8);
 }

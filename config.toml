@@ -40,3 +40,13 @@ index_format = "elasticlunr_json"
 name = "github"
 url = "https://github.com/komar007/"
 icon = "github"
+
+[[extra.socials]]
+name = "stackoverflow"
+url = "https://stackoverflow.com/users/308392/michał-trybus"
+icon = "stack-overflow"
+
+[[extra.socials]]
+name = "printables"
+url = "https://www.printables.com/@MichaTrybus_523068"
+icon = "printables"
