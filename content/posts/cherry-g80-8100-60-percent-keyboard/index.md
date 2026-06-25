@@ -41,8 +41,8 @@ building it and documents the process.
 
 *shrink the keyboard to desired size, don't care for broken connections;)*
 
-{{ link_thumb(path="P1140276.jpg", alt="the 60% block detached") }}
-{{ link_thumb(path="P1140275.jpg", alt="keyboard in two parts") }}
+<a href="P1140276.jpg" data-lightbox="gallery">![the 60% block detached](P1140276_thumb.jpg "the 60% block detached")</a>
+<a href="P1140275.jpg" data-lightbox="gallery">![keyboard in two parts](P1140275_thumb.jpg "keyboard in two parts")</a>
 
 *the 60% block detached (left) and keyboard in two parts (right)*
 
@@ -82,8 +82,8 @@ to get the ATmega32u4 up and running. I don't have any schematics, because I nev
 what you see below is basically a teensy 2.0 with the unnecessary stuff removed mounted on a tqfp
 prototype board with leftover resistor/led leads used as connectors.
 
-{{ link_thumb(path="P1140280.jpg", alt="improvised controller") }}
-{{ link_thumb(path="P1140284.jpg", alt="controller and the main board") }}
+<a href="P1140280.jpg" data-lightbox="gallery">![improvised controller](P1140280_thumb.jpg "improvised controller")</a>
+<a href="P1140284.jpg" data-lightbox="gallery">![controller and the main board](P1140284_thumb.jpg "controller and the main board")</a>
 
 *improvised controller (left) and controller and the main board (right)*
 
@@ -94,12 +94,12 @@ cable. The other ends of the wires are soldered to switch pins chosen nearly ran
 a way which doesn't require too much mess in the cables. In the right picture is the controller laid
 out as it should be with the ribbons routed and connected.
 
-{{ link_thumb(path="P1140282.jpg", alt="bottom of the board connected", width=640) }}
+<a href="P1140282.jpg" data-lightbox="gallery">![bottom of the board connected](P1140282_thumb.jpg "bottom of the board connected")</a>
 
 *bottom of the board connected*
 
-{{ link_thumb(path="P1140283.jpg", alt="ribbon cable wiring") }}
-{{ link_thumb(path="P1140281.jpg", alt="controller - other side") }}
+<a href="P1140283.jpg" data-lightbox="gallery">![ribbon cable wiring](P1140283_thumb.jpg "ribbon cable wiring")</a>
+<a href="P1140281.jpg" data-lightbox="gallery">![controller - other side](P1140281_thumb.jpg "controller - other side")</a>
 
 *ribbon cable wiring (left) and controller — other side (right)*
 
@@ -110,7 +110,7 @@ my professional atx-fan-in-multimeter-box fume extractor;)
 
 *if you don't know how to connect two parts together, use the glue gun... and regret it*
 
-{{ link_thumb(path="IMAG0028.jpg", alt="glue!") }}
+<a href="IMAG0028.jpg" data-lightbox="gallery">![glue!](IMAG0028_thumb.jpg "glue!")</a>
 
 *glue!*
 
@@ -129,10 +129,10 @@ then reglue them to the board.
 
 *clean your desk*
 
-{{ link_thumb(path="P1140287.jpg", alt="improvised base - shot 1") }}
-{{ link_thumb(path="P1140289.jpg", alt="improvised base - shot 2") }}
-{{ link_thumb(path="P1140290.jpg", alt="improvised base - shot 3") }}
-{{ link_thumb(path="P1140291.jpg", alt="improvised base - shot 4") }}
+<a href="P1140287.jpg" data-lightbox="gallery">![improvised base - shot 1](P1140287_thumb.jpg "improvised base - shot 1")</a>
+<a href="P1140289.jpg" data-lightbox="gallery">![improvised base - shot 2](P1140289_thumb.jpg "improvised base - shot 2")</a>
+<a href="P1140290.jpg" data-lightbox="gallery">![improvised base - shot 3](P1140290_thumb.jpg "improvised base - shot 3")</a>
+<a href="P1140291.jpg" data-lightbox="gallery">![improvised base - shot 4](P1140291_thumb.jpg "improvised base - shot 4")</a>
 
 *improvised base — shots 1, 2, 3 (top row), and 4 (bottom)*
 
@@ -152,10 +152,10 @@ After cutting, a lot of dust got into the switches and some of them had some min
 not registering presses or registering them too many times. So I decided to clean everything
 thoroughly to make sure the keyboard would work for some more time.
 
-{{ link_thumb(path="P1140296.jpg", alt="P1140296") }}
-{{ link_thumb(path="P1140298.jpg", alt="P1140298") }}
-{{ link_thumb(path="P1140300.jpg", alt="P1140300") }}
-{{ link_thumb(path="P1140301.jpg", alt="P1140301") }}
+<a href="P1140296.jpg" data-lightbox="gallery">![P1140296](P1140296_thumb.jpg "P1140296")</a>
+<a href="P1140298.jpg" data-lightbox="gallery">![P1140298](P1140298_thumb.jpg "P1140298")</a>
+<a href="P1140300.jpg" data-lightbox="gallery">![P1140300](P1140300_thumb.jpg "P1140300")</a>
+<a href="P1140301.jpg" data-lightbox="gallery">![P1140301](P1140301_thumb.jpg "P1140301")</a>
 
 I removed the plastic tops (a bit tricky at first, but after a couple, it's really easy) and sprayed
 the housings with compressed air. Then I sprayed the stems with "universal silicone oil" (that's
@@ -167,8 +167,8 @@ think it was worth it.
 
 *build the case*
 
-{{ link_thumb(path="P1140292.jpg", alt="case parts") }}
-{{ link_thumb(path="P1140295.jpg", alt="back side idea") }}
+<a href="P1140292.jpg" data-lightbox="gallery">![case parts](P1140292_thumb.jpg "case parts")</a>
+<a href="P1140295.jpg" data-lightbox="gallery">![back side idea](P1140295_thumb.jpg "back side idea")</a>
 
 *case parts (left) and back side idea (right)*
 
@@ -179,7 +179,7 @@ as a daily-driver, but well, even considering my aesthetic requirements, this th
 good. And it was sliding all over the desk. So I decided to make a case. But I'd never designed a
 case in my life. Well, wait. I've never designed a case in my life.
 
-{{ link_thumb(path="P1140294.jpg", alt="keyboard back") }}
+<a href="P1140294.jpg" data-lightbox="gallery">![keyboard back](P1140294_thumb.jpg "keyboard back")</a>
 
 *keyboard back*
 
@@ -207,8 +207,8 @@ if you don't throw it against a wall, it will survive a regular wear and tear. I
 the plastic itself is very thin and flexible, so it's really not a good material for a case, but at
 least it's very easy to cut.
 
-{{ link_thumb(path="P1140310.jpg", alt="case corner") }}
-{{ link_thumb(path="P1140314.jpg", alt="right side of the case") }}
+<a href="P1140310.jpg" data-lightbox="gallery">![case corner](P1140310_thumb.jpg "case corner")</a>
+<a href="P1140314.jpg" data-lightbox="gallery">![right side of the case](P1140314_thumb.jpg "right side of the case")</a>
 
 *case corner (left) and right side of the case (right)*
 
@@ -220,7 +220,7 @@ other side and glued everything together with even more hot glue.
 
 After some more cutting and sanding, this is the effect just after cleaning everything up:
 
-{{ link_thumb(path="IMAG0029.jpg", alt="finished case", width=640) }}
+<a href="IMAG0029.jpg" data-lightbox="gallery">![finished case](IMAG0029_thumb.jpg "finished case")</a>
 
 As far as I remember, the case took me about 2 evenings to finish, mainly because of the lack of a
 project and having just one plastic container, which I was afraid of destroying. And I also learned
@@ -230,8 +230,8 @@ one thing. Use protective glasses when cutting plastic with your drill!
 
 *put the keyboard into the case and finish the work!*
 
-{{ link_thumb(path="IMAG0023.jpg", alt="mounting bolt") }}
-{{ link_thumb(path="IMAG0024.jpg", alt="mounting bolts") }}
+<a href="IMAG0023.jpg" data-lightbox="gallery">![mounting bolt](IMAG0023_thumb.jpg "mounting bolt")</a>
+<a href="IMAG0024.jpg" data-lightbox="gallery">![mounting bolts](IMAG0024_thumb.jpg "mounting bolts")</a>
 
 *mounting bolt (left) and mounting bolts (right)*
 
@@ -239,8 +239,8 @@ The pcb and controller are mounted with 2 bolts and 2 nuts on the lower side. Th
 keyboard is not connected to the case, but since I don't use it in really hard conditions, it seems
 unnecessary, especially with the USB connector holding it in place.
 
-{{ link_thumb(path="IMAG0026.jpg", alt="PCB spacer") }}
-{{ link_thumb(path="IMAG0030.jpg", alt="rubber foot") }}
+<a href="IMAG0026.jpg" data-lightbox="gallery">![PCB spacer](IMAG0026_thumb.jpg "PCB spacer")</a>
+<a href="IMAG0030.jpg" data-lightbox="gallery">![rubber foot](IMAG0030_thumb.jpg "rubber foot")</a>
 
 *PCB spacer (left) and rubber foot (right)*
 
@@ -249,8 +249,8 @@ of course) to keep the pcb in an angled position compatible with the case profil
 attached two rubber feet from the donor board, so that the keyboard didn't move all over the desk
 while typing.
 
-{{ link_thumb(path="P1140322.jpg", alt="finished board") }}
-{{ link_thumb(path="P1140316.jpg", alt="finished board") }}
+<a href="P1140322.jpg" data-lightbox="gallery">![finished board](P1140322_thumb.jpg "finished board")</a>
+<a href="P1140316.jpg" data-lightbox="gallery">![finished board](P1140316_thumb.jpg "finished board")</a>
 
 *finished board*
 

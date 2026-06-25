@@ -95,6 +95,11 @@
                 nativeBuildInputs = [ pkgs.typos ];
               } "cd ${self} && typos . && touch $out";
             };
+            packages.gen-thumbs = pkgs.writeShellApplication {
+              name = "gen-thumbs";
+              runtimeInputs = [ pkgs.imagemagick ];
+              text = builtins.readFile ./scripts/gen-thumbs.sh;
+            };
             packages.serve = pkgs.writeShellApplication {
               name = "serve";
               runtimeInputs = [ pkgs.zola ];
