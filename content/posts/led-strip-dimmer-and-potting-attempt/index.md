@@ -3,6 +3,7 @@ title = "LED strip dimmer and potting attempt"
 date = 2014-05-14
 taxonomies.tags = ["imported", "electronics", "hack"]
 description = "a quick build log of my super-simple dimmer for a LED strip"
+extra.comment = true
 +++
 
 This is just a quick build log of my super-simple dimmer for a LED strip while I'm working on the
