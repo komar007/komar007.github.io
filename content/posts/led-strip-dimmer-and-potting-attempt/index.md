@@ -47,8 +47,8 @@ turns the LED load on. This means that the LEDs are on while C1 charges and off 
 After building a breadboard prototype and verifying that it works, I decided to keep the size as
 small as possible and built the circuit without any PCB by directly soldering wires together.
 
-<a href="IMG_20140513_212800663-e1400062001349.jpg" data-lightbox="gallery">![Dimmer front](IMG_20140513_212800663-e1400062001349_thumb.jpg "Dimmer front")</a>
-<a href="IMG_20140513_212808127-e1400062027201.jpg" data-lightbox="gallery">![Dimmer back](IMG_20140513_212808127-e1400062027201_thumb.jpg "Dimmer back")</a>
+[![Dimmer front](IMG_20140513_212800663-e1400062001349_thumb.jpg "Dimmer front")](IMG_20140513_212800663-e1400062001349.jpg)
+[![Dimmer back](IMG_20140513_212808127-e1400062027201_thumb.jpg "Dimmer back")](IMG_20140513_212808127-e1400062027201.jpg)
 
 *Dimmer front (left) and back (right)*
 
@@ -60,8 +60,8 @@ was going to use wouldn't prevent it from turning. Next, I connected the two bun
 (Output to the remaining pin of the pot and C1's sense line to Trigger and Threshold) and added the
 transistor.
 
-<a href="IMG_20140513_224857531.jpg" data-lightbox="gallery">![The dimmer in a plastic case](IMG_20140513_224857531_thumb.jpg "The dimmer in a plastic case")</a>
-<a href="IMG_20140513_225909237.jpg" data-lightbox="gallery">![3 walls done](IMG_20140513_225909237_thumb.jpg "3 walls done")</a>
+[![The dimmer in a plastic case](IMG_20140513_224857531_thumb.jpg "The dimmer in a plastic case")](IMG_20140513_224857531.jpg)
+[![3 walls done](IMG_20140513_225909237_thumb.jpg "3 walls done")](IMG_20140513_225909237.jpg)
 
 *The dimmer in a plastic case (left) and 3 walls done (right)*
 
@@ -73,8 +73,8 @@ there's a hole in the angle bar to allow for brightness control. After the left 
 some reason, I added the top one and filled everything with even more glue, treating it as a (very
 poor) potting compound.
 
-<a href="IMG_20140513_230359925_HDR.jpg" data-lightbox="gallery">![All walls but one](IMG_20140513_230359925_HDR_thumb.jpg "All walls but one")</a>
-<a href="IMG_20140513_231321595_HDR.jpg" data-lightbox="gallery">![The last wall glued](IMG_20140513_231321595_HDR_thumb.jpg "The last wall glued")</a>
+[![All walls but one](IMG_20140513_230359925_HDR_thumb.jpg "All walls but one")](IMG_20140513_230359925_HDR.jpg)
+[![The last wall glued](IMG_20140513_231321595_HDR_thumb.jpg "The last wall glued")](IMG_20140513_231321595_HDR.jpg)
 
 *All walls but one (left) and the last wall glued (right)*
 
@@ -87,10 +87,10 @@ box. I used a drill with a grinding disc to cut the plastic and then sandpaper t
 edges. This took a while but I was left with a not-very-nice-looking final product which I'm still
 pretty satisfied with. Below, you can see pictures of the final stage:
 
-<a href="IMG_20140514_091513204.jpg" data-lightbox="gallery">![final stage](IMG_20140514_091513204_thumb.jpg "final stage")</a>
-<a href="IMG_20140514_091517969.jpg" data-lightbox="gallery">![final stage](IMG_20140514_091517969_thumb.jpg "final stage")</a>
-<a href="IMG_20140514_091742749.jpg" data-lightbox="gallery">![final stage](IMG_20140514_091742749_thumb.jpg "final stage")</a>
-<a href="IMG_20140514_091523831.jpg" data-lightbox="gallery">![final stage](IMG_20140514_091523831_thumb.jpg "final stage")</a>
+[![final stage](IMG_20140514_091513204_thumb.jpg "final stage")](IMG_20140514_091513204.jpg)
+[![final stage](IMG_20140514_091517969_thumb.jpg "final stage")](IMG_20140514_091517969.jpg)
+[![final stage](IMG_20140514_091742749_thumb.jpg "final stage")](IMG_20140514_091742749.jpg)
+[![final stage](IMG_20140514_091523831_thumb.jpg "final stage")](IMG_20140514_091523831.jpg)
 
 As you can see, it's not a very pretty device, but hopefully it will work. Now I'll wait for the LED
 strip to arrive to check it. My only concern is that when the transistor gets warm it might start to
@@ -98,18 +98,18 @@ melt the glue, and then the whole thing might fall apart. But time will show...
 
 ### Testing
 
-<a href="VOLTCRAFT5_4.png" data-lightbox="gallery">![LEDs nearly off](VOLTCRAFT5_4_thumb.jpg "LEDs nearly off")</a>
-<a href="VOLTCRAFT5_1.png" data-lightbox="gallery">![duty cycle \< 50%](VOLTCRAFT5_1_thumb.jpg "duty cycle \< 50%")</a>
-<a href="VOLTCRAFT5_2.png" data-lightbox="gallery">![duty cycle about 50%](VOLTCRAFT5_2_thumb.jpg "duty cycle about 50%")</a>
-<a href="VOLTCRAFT5_3.png" data-lightbox="gallery">![duty cycle \> 50%](VOLTCRAFT5_3_thumb.jpg "duty cycle \> 50%")</a>
-<a href="VOLTCRAFT5_5.png" data-lightbox="gallery">![LEDs nearly on](VOLTCRAFT5_5_thumb.jpg "LEDs nearly on")</a>
+[![LEDs nearly off](VOLTCRAFT5_4_thumb.jpg "LEDs nearly off")](VOLTCRAFT5_4.png)
+[![duty cycle < 50%](VOLTCRAFT5_1_thumb.jpg "duty cycle < 50%")](VOLTCRAFT5_1.png)
+[![duty cycle about 50%](VOLTCRAFT5_2_thumb.jpg "duty cycle about 50%")](VOLTCRAFT5_2.png)
+[![duty cycle > 50%](VOLTCRAFT5_3_thumb.jpg "duty cycle > 50%")](VOLTCRAFT5_3.png)
+[![LEDs nearly on](VOLTCRAFT5_5_thumb.jpg "LEDs nearly on")](VOLTCRAFT5_5.png)
 
-*From left to right: minimum brightness, duty cycle \< 50%, ~50%, \> 50%, maximum brightness*
+*From left to right: minimum brightness, duty cycle < 50%, ~50%, > 50%, maximum brightness*
 
 I hooked the dimmer up to some 3 white LEDs and a limiting resistor to test if everything worked
 okay.
 
-<a href="IMG_20140514_092834215.jpg" data-lightbox="gallery">![LEDs and oscilloscope](IMG_20140514_092834215_thumb.jpg "LEDs and oscilloscope")</a>
+[![LEDs and oscilloscope](IMG_20140514_092834215_thumb.jpg "LEDs and oscilloscope")](IMG_20140514_092834215.jpg)
 
 It did;)
 

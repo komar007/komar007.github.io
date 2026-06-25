@@ -1,0 +1,8 @@
+<script>
+  let links = document.querySelectorAll(
+    'main a[href$=".jpg"], main a[href$=".jpeg"], main a[href$=".png"], main a[href$=".JPG"], main a[href$=".JPEG"], main a[href$=".PNG"]'
+  );
+  for (var i = 0; i < links.length; i++) {
+    links[i].setAttribute("data-lightbox", "gallery");
+  }
+</script>
