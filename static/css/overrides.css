@@ -26,6 +26,12 @@ main a:hover img {
   filter: invert(1);
 }
 
+/* Code */
+pre.giallo:has(code > span.giallo-l):not(:has(code > span.giallo-l ~ span.giallo-l)) {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
 /* Tags */
 .post-header > div,
 .meta {
