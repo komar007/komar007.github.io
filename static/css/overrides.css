@@ -1,5 +1,9 @@
 main img {
 }
+.right-nav {
+  font-family: monospace;
+  font-size: 1.4em;
+}
 main a:not(:last-child) img {
   margin-right: 1em;
 }

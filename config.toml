@@ -1,5 +1,5 @@
 base_url = "https://komar007.github.io"
-title = "komar's blog"
+title = "~/komar"
 description = "A Zola example site with one converted post"
 compile_sass = true
 theme = "apollo"
@@ -25,7 +25,8 @@ dynamic_note = true
 mathjax = true
 menu = [
     { name = "/posts", url = "/posts", weight = 1 },
-    { name = "Home", url = "/", weight = 2 },
+    { name = "/tags", url = "/tags", weight = 2 },
+    { name = "$HOME", url = "/", weight = 3 },
 ]
 
 [[extra.socials]]
