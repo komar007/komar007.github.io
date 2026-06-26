@@ -11,6 +11,7 @@ name = "tags"
 
 [markdown]
 github_alerts = true
+insert_anchor_links = "heading"
 
 [markdown.highlighting]
 style = "class"
