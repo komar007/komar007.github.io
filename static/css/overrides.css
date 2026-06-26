@@ -17,6 +17,12 @@ main.post-list .post-header .description code {
 }
 
 /* Article */
+article p:has(+ ul), article p:has(+ ol) {
+  margin-bottom: 0.2em;
+}
+article p + ul, article p + ol {
+  margin-top: 0.2em;
+}
 main a:not(:last-child) img {
   margin-right: 1em;
 }
