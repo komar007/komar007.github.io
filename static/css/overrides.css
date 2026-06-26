@@ -7,6 +7,15 @@ a.social img[alt="printables"] {
   font-size: 1.4em;
 }
 
+/* Post list */
+main.post-list .post-header p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+main.post-list .post-header .description code {
+  font-size: 0.9em;
+}
+
 /* Article */
 main a:not(:last-child) img {
   margin-right: 1em;

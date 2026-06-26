@@ -4,6 +4,11 @@ date = 2026-06-26
 taxonomies.tags = ["git", "vim", "hack"]
 extra.comment = true
 +++
+tl;dr `` mc?^\([=><\|]\)\1\{6\}<CR>d?^<<<<<<<?0<CR>/^\([=><\|]\)\1\{6\}<CR>d/^>>>>>>>/0<CR>`c ``
+
+<!-- more -->
+
+----------------------------------------------------------------------------------------------------
 
 Working with git, I found that I am missing very simple functionality from a few plugins I've
 checked out - accept the side 1 of the conflict region under cursor and remove the rest. Most
