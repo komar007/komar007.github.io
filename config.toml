@@ -9,6 +9,9 @@ build_search_index = true
 [[taxonomies]]
 name = "tags"
 
+[markdown]
+github_alerts = true
+
 [markdown.highlighting]
 style = "class"
 light_theme = "github-light"

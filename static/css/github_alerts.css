@@ -1,0 +1,124 @@
+:root {
+  --alert-note-color:       #0969da;
+  --alert-note-bg:          #ddf4ff;
+  --alert-tip-color:        #1a7f37;
+  --alert-tip-bg:           #dafbe1;
+  --alert-important-color:  #8250df;
+  --alert-important-bg:     #f3f0ff;
+  --alert-warning-color:    #9a6700;
+  --alert-warning-bg:       #fff8c5;
+  --alert-caution-color:    #cf222e;
+  --alert-caution-bg:       #ffebe9;
+}
+
+:root.dark {
+  --alert-note-color:       #58a6ff;
+  --alert-note-bg:          rgba( 88,166,255, .12);
+  --alert-tip-color:        #3fb950;
+  --alert-tip-bg:           rgba( 63,185, 80, .12);
+  --alert-important-color:  #bc8cff;
+  --alert-important-bg:     rgba(188,140,255, .12);
+  --alert-warning-color:    #d29922;
+  --alert-warning-bg:       rgba(210,153, 34, .12);
+  --alert-caution-color:    #f85149;
+  --alert-caution-bg:       rgba(248, 81, 73, .12);
+}
+
+blockquote.markdown-alert-note,
+blockquote.markdown-alert-tip,
+blockquote.markdown-alert-important,
+blockquote.markdown-alert-warning,
+blockquote.markdown-alert-caution {
+  padding: .2rem 1rem;
+  margin: 0.7rem 0;
+  border-left: 0.3rem solid;
+  border-radius: 10px;
+  color: var(--text-0);
+}
+
+blockquote.markdown-alert-note > p:first-child::before {
+  content: "Note";
+  background-image: url("/icons/info-16.svg");
+}
+blockquote.markdown-alert-tip > p:first-child::before {
+  content: "Tip";
+  background-image: url("/icons/light-bulb-16.svg");
+}
+blockquote.markdown-alert-important > p:first-child::before {
+  content: "Important";
+  background-image: url("/icons/report-16.svg");
+}
+blockquote.markdown-alert-warning > p:first-child::before {
+  content: "Warning";
+  background-image: url("/icons/alert-16.svg");
+}
+blockquote.markdown-alert-caution > p:first-child::before {
+  content: "Caution";
+  background-image: url("/icons/stop-16.svg");
+}
+
+blockquote.markdown-alert-note > p:first-child::before,
+blockquote.markdown-alert-tip > p:first-child::before,
+blockquote.markdown-alert-important > p:first-child::before,
+blockquote.markdown-alert-warning > p:first-child::before,
+blockquote.markdown-alert-caution > p:first-child::before {
+  font-weight: 1000;
+  font-size: 1.2rem;
+  display: block;
+  background-position: left;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 1.3rem;
+  padding: 0 1.7rem;
+  line-height: 1.2em;
+  margin-bottom: 0.5rem;
+  color: white;
+  filter: brightness(70%) invert(1);
+}
+:root.dark blockquote.markdown-alert-note > p:first-child::before,
+:root.dark blockquote.markdown-alert-tip > p:first-child::before,
+:root.dark blockquote.markdown-alert-important > p:first-child::before,
+:root.dark blockquote.markdown-alert-warning > p:first-child::before,
+:root.dark blockquote.markdown-alert-caution > p:first-child::before {
+  filter: brightness(70%);
+}
+
+blockquote.markdown-alert-note {
+  border-color: var(--alert-note-color);
+  background: var(--alert-note-bg);
+}
+blockquote.markdown-alert-note p {
+  color: var(--alert-note-color);
+}
+
+blockquote.markdown-alert-tip {
+  border-color: var(--alert-tip-color);
+  background: var(--alert-tip-bg);
+}
+blockquote.markdown-alert-tip p {
+  color: var(--alert-tip-color);
+}
+
+blockquote.markdown-alert-important {
+  border-color: var(--alert-important-color);
+  background: var(--alert-important-bg);
+}
+blockquote.markdown-alert-important p {
+  color: var(--alert-important-color);
+}
+
+blockquote.markdown-alert-warning {
+  border-color: var(--alert-warning-color);
+  background: var(--alert-warning-bg);
+}
+blockquote.markdown-alert-warning p {
+  color: var(--alert-warning-color);
+}
+
+blockquote.markdown-alert-caution {
+  border-color: var(--alert-caution-color);
+  background: var(--alert-caution-bg);
+}
+blockquote.markdown-alert-caution p {
+  color: var(--alert-caution-color);
+}
