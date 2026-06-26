@@ -31,6 +31,10 @@ pre.giallo:has(code > span.giallo-l):not(:has(code > span.giallo-l ~ span.giallo
   padding-top: 2em;
   padding-bottom: 2em;
 }
+pre:not(.giallo) span.code-label,
+pre:not(.giallo) button.clipboard-button {
+  display: none;
+}
 
 /* Tags */
 .post-header > div,
