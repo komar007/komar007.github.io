@@ -27,6 +27,8 @@ favicon = "/icon/favicon.png"
 fancy_code = true
 dynamic_note = true
 mathjax = true
+repo_url = "https://github.com/komar007/komar007.github.io/tree/main/content/"
+repo_view = true
 menu = [
     { name = "/posts", url = "/posts", weight = 1 },
     { name = "/tags", url = "/tags", weight = 2 },
