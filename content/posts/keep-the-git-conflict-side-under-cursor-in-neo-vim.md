@@ -26,7 +26,7 @@ looking at right now.
 Here's the solution. No error handling, no conditions, pure vim.
 
 ``` viml
-:nnnoremap <leader>gc mc?^\([=><\|]\)\1\{6\}<CR>d?^<<<<<<<?0<CR>/^\([=><\|]\)\1\{6\}<CR>d/^>>>>>>>/0<CR>`c
+:nnoremap <leader>gc mc?^\([=><\|]\)\1\{6\}<CR>d?^<<<<<<<?0<CR>/^\([=><\|]\)\1\{6\}<CR>d/^>>>>>>>/0<CR>`c
 ```
 
 In neovim/lua, I map it like this:
