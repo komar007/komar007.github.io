@@ -37,7 +37,7 @@ main a:hover img {
   outline-offset: 0;
   box-shadow: 0 0 1em var(--primary-color);
 }
-:root.dark img[src$=".png"] {
+:root.dark :not(.character-avatar) > img[src$=".png"] {
   filter: invert(1);
 }
 
