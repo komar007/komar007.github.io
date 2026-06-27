@@ -66,8 +66,22 @@
                 ])
               ];
             };
+            updateEvalSrc = pkgs.writeShellApplication {
+              name = "update-eval-src";
+              runtimeInputs = with pkgs; [
+                nix
+                rsync
+              ];
+              text = ''
+                nix build .#src -o "$1"/src
+                rsync -aL --delete --chmod=u+w "$1"/src/ "$1"/served
+                touch "$1"/initial_done
+              '';
+            };
           in
           {
+            packages.zola = pkgs.zola;
+            packages.src = src;
             packages.default = pkgs.stdenvNoCC.mkDerivation {
               inherit src;
               pname = "blog";
@@ -102,16 +116,26 @@
             };
             packages.serve = pkgs.writeShellApplication {
               name = "serve";
-              runtimeInputs = [ pkgs.zola ];
+              runtimeInputs = with pkgs; [
+                zola
+                watchexec
+              ];
               text = ''
                 D=$(mktemp -d)
+                echo running in "$D"
+                watchexec \
+                  -i '.git/**' \
+                  -i '.deepseek/**' \
+                  -i 'tmp/**' \
+                  -i 'result/**' \
+                  ${pkgs.lib.getExe updateEvalSrc} "$D" \
+                  &
                 cleanup() {
                   rm -fr "$D"
                 }
                 trap cleanup EXIT
-                cp -Lr ${src}/* "$D"
-                chmod +w "$D" -R
-                zola -r "$D" serve
+                watchexec -q -w "$D" --exit-on-error --postpone -f initial_done false || true
+                zola -r "$D"/served serve -d 100
               '';
             };
           };
