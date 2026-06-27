@@ -149,3 +149,26 @@ Here you can check out a small gallery of little fragments of the Burning Ship s
 For those of you who want to have some of these on their desktops, here is a package with all those
 images in hi-resolution without the bottom labels:
 [burning_ship_hi_res.zip](burning_ship_hi_res.zip).
+
+----------------------------------------------------------------------------------------------------
+
+# Archived comments
+
+*Below are the comments imported from the previous wordpress blog*
+
+**Mikey** — *May 9, 2019 at 1:28 pm*
+
+> What particular program did you use to visualize and assign colors to your chosen math there? I'd
+> have loads of fun zooming and assigning colors. Great blog and thanks for sharing! ...And I just
+> realized this was written in 2013 and so I bet this won't even get a reply 🙁
+
+**komar** — *July 16, 2019 at 7:32 pm*
+
+> Mikey,
+>
+> check it out here: <https://github.com/komar007/ssefract> Unfortunately, it's an old project I did
+> on studies, may be hard to compile... Contact me here if you have problems.
+>
+> I've dropped you an e-mail. Check spam:)
+
+----------------------------------------------------------------------------------------------------
