@@ -5,7 +5,6 @@ taxonomies.tags = ["imported", "electronics", "hack"]
 description = "a quick build log of my super-simple dimmer for a LED strip"
 extra.comment = true
 +++
-
 This is just a quick build log of my super-simple dimmer for a LED strip while I'm working on the
 second part of [How to make a keyboard](/posts/how-to-make-a-keyboard-the-matrix/).
 
@@ -16,9 +15,12 @@ PWM Dimmer with the
 
 Here's the schematic of my version:
 
+<figure>
+
 ![555 based PWM LED dimmer schematic](dimmer_invertible_.png)
 
-*555 based PWM LED dimmer schematic*
+<figcaption class="fig-plain"> 55 based PWM LED dimmer schematic</figcaption>
+</figure>
 
 The circuit is rather simple. It's powered from a 12V supply. The 555 timer works in its regular
 astable mode, where pins 6 and 2 (Threshold and Trigger) are shorted and are used to sense the
@@ -42,15 +44,20 @@ needs a pull-up resistor R1. When it's low, the resistor wastes about 12mA of cu
 high, the resistor limits the base current of Q1, driving it to saturation, which in consequence
 turns the LED load on. This means that the LEDs are on while C1 charges and off while it discharges.
 
-### Building
+# Building
 
 After building a breadboard prototype and verifying that it works, I decided to keep the size as
 small as possible and built the circuit without any PCB by directly soldering wires together.
 
-[![Dimmer front](IMG_20140513_212800663-e1400062001349_thumb.jpg "Dimmer front")](IMG_20140513_212800663-e1400062001349.jpg)
-[![Dimmer back](IMG_20140513_212808127-e1400062027201_thumb.jpg "Dimmer back")](IMG_20140513_212808127-e1400062027201.jpg)
+<figure>
 
-*Dimmer front (left) and back (right)*
+[![Dimmer
+front](IMG_20140513_212800663-e1400062001349_thumb.jpg "Dimmer front")](IMG_20140513_212800663-e1400062001349.jpg)
+[![Dimmer
+back](IMG_20140513_212808127-e1400062027201_thumb.jpg "Dimmer back")](IMG_20140513_212808127-e1400062027201.jpg)
+
+<figcaption class="fig-plain">Dimmer front (left) and back (right)</figcaption>
+</figure>
 
 I managed to put R1 and C2 under the 555's dip package and also make some extra connections using
 the remaining component wires. Then I squeezed D1, D2 and C1 under a pretty large pot I happened to
@@ -60,10 +67,14 @@ was going to use wouldn't prevent it from turning. Next, I connected the two bun
 (Output to the remaining pin of the pot and C1's sense line to Trigger and Threshold) and added the
 transistor.
 
-[![The dimmer in a plastic case](IMG_20140513_224857531_thumb.jpg "The dimmer in a plastic case")](IMG_20140513_224857531.jpg)
+<figure>
+
+[![The dimmer in a plastic
+case](IMG_20140513_224857531_thumb.jpg "The dimmer in a plastic case")](IMG_20140513_224857531.jpg)
 [![3 walls done](IMG_20140513_225909237_thumb.jpg "3 walls done")](IMG_20140513_225909237.jpg)
 
-*The dimmer in a plastic case (left) and 3 walls done (right)*
+<figcaption class="fig-plain">The dimmer in a plastic case (left) and 3 walls done (right)</figcaption>
+</figure>
 
 The next step was to solder the 4 connection wires and build a mini plastic case. I decided to use a
 plastic angle bar to form 2 walls of the case. I cut the two next walls out of the same plastic,
@@ -73,10 +84,15 @@ there's a hole in the angle bar to allow for brightness control. After the left 
 some reason, I added the top one and filled everything with even more glue, treating it as a (very
 poor) potting compound.
 
-[![All walls but one](IMG_20140513_230359925_HDR_thumb.jpg "All walls but one")](IMG_20140513_230359925_HDR.jpg)
-[![The last wall glued](IMG_20140513_231321595_HDR_thumb.jpg "The last wall glued")](IMG_20140513_231321595_HDR.jpg)
+<figure>
 
-*All walls but one (left) and the last wall glued (right)*
+[![All walls but
+one](IMG_20140513_230359925_HDR_thumb.jpg "All walls but one")](IMG_20140513_230359925_HDR.jpg)
+[![The last wall
+glued](IMG_20140513_231321595_HDR_thumb.jpg "The last wall glued")](IMG_20140513_231321595_HDR.jpg)
+
+<figcaption class="fig-plain">All walls but one (left) and the last wall glued (right)</figcaption>
+</figure>
 
 I re-added the left wall, filled everything with as much glue as I could and pushed the precisely
 crafted front wall inside. Making this wall required some patience as I wanted it to fit very
@@ -96,7 +112,9 @@ As you can see, it's not a very pretty device, but hopefully it will work. Now I
 strip to arrive to check it. My only concern is that when the transistor gets warm it might start to
 melt the glue, and then the whole thing might fall apart. But time will show...
 
-### Testing
+# Testing
+
+<figure>
 
 [![LEDs nearly off](VOLTCRAFT5_4_thumb_170x.png "LEDs nearly off")](VOLTCRAFT5_4.png)
 [![duty cycle < 50%](VOLTCRAFT5_1_thumb_170x.png "duty cycle < 50%")](VOLTCRAFT5_1.png)
@@ -104,12 +122,16 @@ melt the glue, and then the whole thing might fall apart. But time will show...
 [![duty cycle > 50%](VOLTCRAFT5_3_thumb_170x.png "duty cycle > 50%")](VOLTCRAFT5_3.png)
 [![LEDs nearly on](VOLTCRAFT5_5_thumb_170x.png "LEDs nearly on")](VOLTCRAFT5_5.png)
 
-*From left to right: minimum brightness, duty cycle < 50%, ~50%, > 50%, maximum brightness*
+<figcaption class="fig-plain">
+From left to right: minimum brightness, duty cycle < 50%, ~50%, > 50%, maximum brightness
+</figcaption>
+</figure>
 
 I hooked the dimmer up to some 3 white LEDs and a limiting resistor to test if everything worked
 okay.
 
-[![LEDs and oscilloscope](IMG_20140514_092834215_thumb.jpg "LEDs and oscilloscope")](IMG_20140514_092834215.jpg)
+[![LEDs and
+oscilloscope](IMG_20140514_092834215_thumb.jpg "LEDs and oscilloscope")](IMG_20140514_092834215.jpg)
 
 It did;)
 
