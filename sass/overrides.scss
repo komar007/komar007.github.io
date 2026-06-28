@@ -25,9 +25,6 @@ article p + ul, article p + ol {
 }
 
 /* Images in links overrides */
-main a:not(:last-child) img {
-  margin-right: 1em;
-}
 
 /* override apollo link underline - doesn't work well for image links */
 main a:has(> img) {
@@ -44,6 +41,7 @@ main p:has(> a:only-child:hover) + figcaption:not(.fig-plain) {
   outline-offset: 0;
   box-shadow: 0 0 1em var(--primary-color);
 }
+
 /*
  * invertible images are assumed to have either white or transparent background, and contain mostly
  * dark content (drawings, schematics, etc).
