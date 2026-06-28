@@ -16,7 +16,7 @@ PWM Dimmer with the
 
 Here's the schematic of my version:
 
-![555 based PWM LED dimmer schematic](dimmer.png)
+![555 based PWM LED dimmer schematic](dimmer_invertible_.png)
 
 *555 based PWM LED dimmer schematic*
 
