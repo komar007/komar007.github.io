@@ -65,6 +65,21 @@
                   }
                 ])
               ];
+              postBuild =
+                let
+                  findImages = pkgs.rustPlatform.buildRustPackage {
+                    pname = "find-images";
+                    version = "0.1.0";
+                    src = ./find-images;
+                    cargoHash = "sha256-40hM2JP9HTd9eQFn9xdfRFZ6B7OrOwvLCEdQef+lsRM=";
+                    meta.mainProgram = "find-images";
+                  };
+                in
+                ''
+                  cd $out
+                  export PATH=$PATH:${pkgs.imagemagick}/bin
+                  ${pkgs.lib.getExe findImages} content/posts/*/*.md
+                '';
             };
             updateEvalSrc = pkgs.writeShellApplication {
               name = "update-eval-src";

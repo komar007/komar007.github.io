@@ -1,0 +1,11 @@
+[package]
+name = "find-images"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+pulldown-cmark = "0.13.4"
+ctreg = { version = "1.0.3" }
+itertools = "0.15.0"
+url = "2.5.8"
+rayon = "1.12.0"

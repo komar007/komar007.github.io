@@ -98,11 +98,11 @@ melt the glue, and then the whole thing might fall apart. But time will show...
 
 ### Testing
 
-[![LEDs nearly off](VOLTCRAFT5_4_thumb.jpg "LEDs nearly off")](VOLTCRAFT5_4.png)
-[![duty cycle < 50%](VOLTCRAFT5_1_thumb.jpg "duty cycle < 50%")](VOLTCRAFT5_1.png)
-[![duty cycle about 50%](VOLTCRAFT5_2_thumb.jpg "duty cycle about 50%")](VOLTCRAFT5_2.png)
-[![duty cycle > 50%](VOLTCRAFT5_3_thumb.jpg "duty cycle > 50%")](VOLTCRAFT5_3.png)
-[![LEDs nearly on](VOLTCRAFT5_5_thumb.jpg "LEDs nearly on")](VOLTCRAFT5_5.png)
+[![LEDs nearly off](VOLTCRAFT5_4_thumb_170x.png "LEDs nearly off")](VOLTCRAFT5_4.png)
+[![duty cycle < 50%](VOLTCRAFT5_1_thumb_170x.png "duty cycle < 50%")](VOLTCRAFT5_1.png)
+[![duty cycle about 50%](VOLTCRAFT5_2_thumb_170x.png "duty cycle about 50%")](VOLTCRAFT5_2.png)
+[![duty cycle > 50%](VOLTCRAFT5_3_thumb_170x.png "duty cycle > 50%")](VOLTCRAFT5_3.png)
+[![LEDs nearly on](VOLTCRAFT5_5_thumb_170x.png "LEDs nearly on")](VOLTCRAFT5_5.png)
 
 *From left to right: minimum brightness, duty cycle < 50%, ~50%, > 50%, maximum brightness*
 

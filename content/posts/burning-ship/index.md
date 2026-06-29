@@ -134,17 +134,17 @@ a 1-pixel high strip of pixels. And that's your palette! You can see the results
 
 Here you can check out a small gallery of little fragments of the Burning Ship set I've generated.
 
-[![1](1_thumb.jpg "1")](1.jpg) [![2](2_thumb.jpg "2")](2.jpg) [![3](3_thumb.jpg "3")](3.jpg)
-[![4](4_thumb.jpg "4")](4.jpg)
+[![1](1_thumb_220x.jpg "1")](1.jpg) [![2](2_thumb_220x.jpg "2")](2.jpg) [![3](3_thumb_220x.jpg "3")](3.jpg)
+[![4](4_thumb_220x.jpg "4")](4.jpg)
 
-[![5](5_thumb.jpg "5")](5.jpg) [![6](6_thumb.jpg "6")](6.jpg) [![7](7_thumb.jpg "7")](7.jpg)
-[![8](8_thumb.jpg "8")](8.jpg)
+[![5](5_thumb_220x.jpg "5")](5.jpg) [![6](6_thumb_220x.jpg "6")](6.jpg) [![7](7_thumb_220x.jpg "7")](7.jpg)
+[![8](8_thumb_220x.jpg "8")](8.jpg)
 
-[![9](9_thumb.jpg "9")](9.jpg) [![10](10_thumb.jpg "10")](10.jpg)
-[![11a](11a_thumb.jpg "11a")](11a.jpg) [![11b](11b_thumb.jpg "11b")](11b.jpg)
+[![9](9_thumb_220x.jpg "9")](9.jpg) [![10](10_thumb_220x.jpg "10")](10.jpg)
+[![11a](11a_thumb_220x.jpg "11a")](11a.jpg) [![11b](11b_thumb_220x.jpg "11b")](11b.jpg)
 
-[![12a](12a_thumb.jpg "12a")](12a.jpg) [![12b](12b_thumb.jpg "12b")](12b.jpg)
-[![13](13_thumb.jpg "13")](13.jpg) [![14](14_thumb.jpg "14")](14.jpg)
+[![12a](12a_thumb_220x.jpg "12a")](12a.jpg) [![12b](12b_thumb_220x.jpg "12b")](12b.jpg)
+[![13](13_thumb_220x.jpg "13")](13.jpg) [![14](14_thumb_220x.jpg "14")](14.jpg)
 
 For those of you who want to have some of these on their desktops, here is a package with all those
 images in hi-resolution without the bottom labels:
