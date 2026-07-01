@@ -90,7 +90,7 @@
               text = ''
                 nix build .#src -o "$1"/src
                 rsync -aL --delete --chmod=u+w "$1"/src/ "$1"/served
-                touch "$1"/initial_done
+                touch "$1"/trigger
               '';
             };
           in
@@ -151,8 +151,8 @@
                   kill $PID 2>/dev/null
                 }
                 trap cleanup EXIT
-                watchexec -q -w "$D" --exit-on-error --postpone -f initial_done false || true
-                zola -r "$D"/served serve -d 100
+                watchexec -q -w "$D" --exit-on-error --postpone -f trigger false || true
+                zola -r "$D"/served serve --extra-watch-path ../trigger -d 100
               '';
             };
           };
