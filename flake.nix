@@ -145,8 +145,10 @@
                   -i 'result/**' \
                   ${pkgs.lib.getExe updateEvalSrc} "$D" \
                   &
+                PID=$!
                 cleanup() {
                   rm -fr "$D"
+                  kill $PID 2>/dev/null
                 }
                 trap cleanup EXIT
                 watchexec -q -w "$D" --exit-on-error --postpone -f initial_done false || true
