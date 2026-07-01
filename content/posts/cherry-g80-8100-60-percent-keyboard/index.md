@@ -3,6 +3,7 @@ title = "60% keyboard from a Cherry G80-8100"
 date = 2015-09-05
 taxonomies.tags = ["imported", "keyboards", "electronics", "hack"]
 description = "how I turned a cheap Cherry POS keyboard into a 60% compact keyboard with a handmade plastic case"
+extra.comment = true
 +++
 
 Here is an example of what you can do with your cheap POS Cherry keyboard if you have a few days and
@@ -14,15 +15,15 @@ questions;)
 Unfortunately, the forum was having problems as a result of which the post lost its attachments. The
 article below is a copy of the old post with attachments fixed.*
 
-### TL;DR?
+# TL;DR?
 
 I built a 60% keyboard from a Cherry MX 8100 and an ikea cutlery container. It looks like this:
 
-![60% keyboard from Cherry G80-8100](P1140320.jpg)
+[![60% keyboard from Cherry G80-8100](P1140320_thumb_900x.jpg)](P1140320.jpg)
 
 Thanks for reading.
 
-### Not TL;DR?
+# Not TL;DR?
 
 Here it goes...
 
@@ -37,14 +38,17 @@ Anyway, I'll present how to modify the big cherry board with magnetic card swipe
 the parts and pieces. This is not an actual instructable, but it presents the basic steps of
 building it and documents the process.
 
-#### Step one
+## Step one
 
 *shrink the keyboard to desired size, don't care for broken connections;)*
+
+<figure>
 
 [![the 60% block detached](P1140276_thumb.jpg "the 60% block detached")](P1140276.jpg)
 [![keyboard in two parts](P1140275_thumb.jpg "keyboard in two parts")](P1140275.jpg)
 
-*the 60% block detached (left) and keyboard in two parts (right)*
+<figcaption>the 60% block detached (left) and keyboard in two parts (right)</figcaption>
+</figure>
 
 The photo on the left shows the pcb with all the switches but those I needed removed, after cutting
 it into two parts — the 60% block for the new build and the unnecessary rest. You can see that I
@@ -59,7 +63,7 @@ after cutting, because the dust got inside and it took a long time to clean it l
 had protected the switches with a solid layer of duct tape. In the background of the right photo is
 the original keyboard (well, not exactly that same device obviously...)
 
-#### Step two
+## Step two
 
 *trace the matrix and check which connections you've destroyed*
 
@@ -72,7 +76,7 @@ see the added connections in the background. This Cherry board used switches wit
 have to be careful what you're connecting together to make sure you have all the cathodes/anodes on
 either columns or rows.
 
-#### Step three
+## Step three
 
 *make the controller*
 
@@ -82,10 +86,20 @@ to get the ATmega32u4 up and running. I don't have any schematics, because I nev
 what you see below is basically a teensy 2.0 with the unnecessary stuff removed mounted on a tqfp
 prototype board with leftover resistor/led leads used as connectors.
 
+<figure>
+
 [![improvised controller](P1140280_thumb.jpg "improvised controller")](P1140280.jpg)
 [![controller and the main board](P1140284_thumb.jpg "controller and the main board")](P1140284.jpg)
 
-*improvised controller (left) and controller and the main board (right)*
+<figcaption>improvised controller (left) and controller and the main board (right)</figcaption>
+</figure>
+
+<figure class="fig-right">
+
+[![bottom of the board connected](P1140282_thumb_300x.jpg "bottom of the board connected")](P1140282.jpg)
+
+<figcaption>bottom of the board connected</figcaption>
+</figure>
 
 You can see some "innovative" solutions like wires going around the board to the other side or
 additional drills, to make the USB B socket as stable as possible to prevent it from damage while
@@ -94,25 +108,29 @@ cable. The other ends of the wires are soldered to switch pins chosen nearly ran
 a way which doesn't require too much mess in the cables. In the right picture is the controller laid
 out as it should be with the ribbons routed and connected.
 
-[![bottom of the board connected](P1140282_thumb.jpg "bottom of the board connected")](P1140282.jpg)
+<p class="endfloat" />
 
-*bottom of the board connected*
+<figure>
 
 [![ribbon cable wiring](P1140283_thumb.jpg "ribbon cable wiring")](P1140283.jpg)
 [![controller - other side](P1140281_thumb.jpg "controller - other side")](P1140281.jpg)
 
-*ribbon cable wiring (left) and controller — other side (right)*
+<figcaption>ribbon cable wiring (left) and controller — other side (right)</figcaption>
+</figure>
 
 Above is the bottom of the board after connecting everything together. You can also see my desk and
 my professional atx-fan-in-multimeter-box fume extractor;)
 
-#### Step four
+## Step four
 
 *if you don't know how to connect two parts together, use the glue gun... and regret it*
 
+<figure class="fig-left">
+
 [![glue!](IMAG0028_thumb.jpg "glue!")](IMAG0028.jpg)
 
-*glue!*
+<figcaption>glue!</figcaption>
+</figure>
 
 So I thought, this is a really dirty mod and I don't even know if I'm going to use it, so let's just
 hot-glue the controller to the board. Well, even if I did have the photos of the thing glued, I
@@ -125,16 +143,19 @@ pcb. The gluing job looked even uglier, especially after I realized that it woul
 (see step six — building the case) and had to remove some of the glue to lay the capacitors flat and
 then reglue them to the board.
 
-#### Step five
+## Step five
 
 *clean your desk*
+
+<figure>
 
 [![improvised base - shot 1](P1140287_thumb.jpg "improvised base - shot 1")](P1140287.jpg)
 [![improvised base - shot 2](P1140289_thumb.jpg "improvised base - shot 2")](P1140289.jpg)
 [![improvised base - shot 3](P1140290_thumb.jpg "improvised base - shot 3")](P1140290.jpg)
 [![improvised base - shot 4](P1140291_thumb.jpg "improvised base - shot 4")](P1140291.jpg)
 
-*improvised base — shots 1, 2, 3 (top row), and 4 (bottom)*
+<figcaption>improvised base — shots 1, 2, 3 (top row), and 4 (bottom)</figcaption>
+</figure>
 
 I downloaded the example USB HID code from the teensy project's page, replaced the dummy parts with
 some matrix scanning and it basically started to work;)
@@ -144,7 +165,7 @@ keyboard. Did I mention, that the thing couldn't even lay flat on the desk, beca
 socket on the left? After a few hours of use I decided to do something about the current "design",
 because the front of the keyboard (space, modifiers, etc) was really too high. Time for a case!
 
-#### Step five and a half
+## Step five and a half
 
 *clean the switches*
 
@@ -163,14 +184,17 @@ what the label said) and put some additional green grease of unknown origin on t
 the stems. The whole process took about an hour and the switches started working much better, so I
 think it was worth it.
 
-#### Step six
+## Step six
 
 *build the case*
+
+<figure>
 
 [![case parts](P1140292_thumb.jpg "case parts")](P1140292.jpg)
 [![back side idea](P1140295_thumb.jpg "back side idea")](P1140295.jpg)
 
-*case parts (left) and back side idea (right)*
+<figcaption>case parts (left) and back side idea (right)</figcaption>
+</figure>
 
 I really got convinced that the 61 keys are more than enough for all my needs. Such layout has some
 advantages, for example the mouse is as close to the hands while typing as possible. And you can
@@ -179,9 +203,12 @@ as a daily-driver, but well, even considering my aesthetic requirements, this th
 good. And it was sliding all over the desk. So I decided to make a case. But I'd never designed a
 case in my life. Well, wait. I've never designed a case in my life.
 
-[![keyboard back](P1140294_thumb.jpg "keyboard back")](P1140294.jpg)
+<figure class="fig-right">
 
-*keyboard back*
+[![keyboard back](P1140294_thumb_300x.jpg "keyboard back")](P1140294.jpg)
+
+<figcaption>keyboard back</figcaption>
+</figure>
 
 The following description can't be treated as an instruction or anything like it, because it's
 basically a few photos which I took while building the case. The process was not planned, so I don't
@@ -207,10 +234,15 @@ if you don't throw it against a wall, it will survive a regular wear and tear. I
 the plastic itself is very thin and flexible, so it's really not a good material for a case, but at
 least it's very easy to cut.
 
+<p class="endfloat" />
+
+<figure>
+
 [![case corner](P1140310_thumb.jpg "case corner")](P1140310.jpg)
 [![right side of the case](P1140314_thumb.jpg "right side of the case")](P1140314.jpg)
 
-*case corner (left) and right side of the case (right)*
+<figcaption>case corner (left) and right side of the case (right)</figcaption>
+</figure>
 
 I glued the two parts together and used another brim of the container to close the case on the side.
 I also cut a hole for the USB connector. As you can see, the glue looks terrible, but that's the
@@ -220,39 +252,54 @@ other side and glued everything together with even more hot glue.
 
 After some more cutting and sanding, this is the effect just after cleaning everything up:
 
+<figure class="fig-left">
+
 [![finished case](IMAG0029_thumb.jpg "finished case")](IMAG0029.jpg)
+
+</figure>
 
 As far as I remember, the case took me about 2 evenings to finish, mainly because of the lack of a
 project and having just one plastic container, which I was afraid of destroying. And I also learned
 one thing. Use protective glasses when cutting plastic with your drill!
 
-#### Step seven
+<p class="endfloat" />
+
+## Step seven
 
 *put the keyboard into the case and finish the work!*
+
+<figure>
 
 [![mounting bolt](IMAG0023_thumb.jpg "mounting bolt")](IMAG0023.jpg)
 [![mounting bolts](IMAG0024_thumb.jpg "mounting bolts")](IMAG0024.jpg)
 
-*mounting bolt (left) and mounting bolts (right)*
+<figcaption>mounting bolt (left) and mounting bolts (right)</figcaption>
+</figure>
 
 The pcb and controller are mounted with 2 bolts and 2 nuts on the lower side. The upper part of the
 keyboard is not connected to the case, but since I don't use it in really hard conditions, it seems
 unnecessary, especially with the USB connector holding it in place.
 
+<figure>
+
 [![PCB spacer](IMAG0026_thumb.jpg "PCB spacer")](IMAG0026.jpg)
 [![rubber foot](IMAG0030_thumb.jpg "rubber foot")](IMAG0030.jpg)
 
-*PCB spacer (left) and rubber foot (right)*
+<figcaption>PCB spacer (left) and rubber foot (right)</figcaption>
+</figure>
 
 Before I put the keyboard into the case, I made 2 legs from plastic spacers (and hot-melt adhesive
 of course) to keep the pcb in an angled position compatible with the case profile. In the end I
 attached two rubber feet from the donor board, so that the keyboard didn't move all over the desk
 while typing.
 
+<figure>
+
 [![finished board](P1140322_thumb.jpg "finished board")](P1140322.jpg)
 [![finished board](P1140316_thumb.jpg "finished board")](P1140316.jpg)
 
-*finished board*
+<figcaption>finished board</figcaption>
+</figure>
 
 The firmware currently supports two layers and full NKRO over USB. I'm still working on it, because
 it's now used in my Universal Keyboard Controller. If I ever manage to finish it, you can expect it

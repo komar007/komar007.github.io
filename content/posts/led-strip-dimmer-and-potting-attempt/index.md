@@ -19,7 +19,7 @@ Here's the schematic of my version:
 
 ![555 based PWM LED dimmer schematic](dimmer_invertible_.png)
 
-<figcaption class="fig-plain"> 55 based PWM LED dimmer schematic</figcaption>
+<figcaption>555 based PWM LED dimmer schematic</figcaption>
 </figure>
 
 The circuit is rather simple. It's powered from a 12V supply. The 555 timer works in its regular
@@ -56,7 +56,7 @@ front](IMG_20140513_212800663-e1400062001349_thumb.jpg "Dimmer front")](IMG_2014
 [![Dimmer
 back](IMG_20140513_212808127-e1400062027201_thumb.jpg "Dimmer back")](IMG_20140513_212808127-e1400062027201.jpg)
 
-<figcaption class="fig-plain">Dimmer front (left) and back (right)</figcaption>
+<figcaption>Dimmer front (left) and back (right)</figcaption>
 </figure>
 
 I managed to put R1 and C2 under the 555's dip package and also make some extra connections using
@@ -73,7 +73,7 @@ transistor.
 case](IMG_20140513_224857531_thumb.jpg "The dimmer in a plastic case")](IMG_20140513_224857531.jpg)
 [![3 walls done](IMG_20140513_225909237_thumb.jpg "3 walls done")](IMG_20140513_225909237.jpg)
 
-<figcaption class="fig-plain">The dimmer in a plastic case (left) and 3 walls done (right)</figcaption>
+<figcaption>The dimmer in a plastic case (left) and 3 walls done (right)</figcaption>
 </figure>
 
 The next step was to solder the 4 connection wires and build a mini plastic case. I decided to use a
@@ -91,7 +91,7 @@ one](IMG_20140513_230359925_HDR_thumb.jpg "All walls but one")](IMG_20140513_230
 [![The last wall
 glued](IMG_20140513_231321595_HDR_thumb.jpg "The last wall glued")](IMG_20140513_231321595_HDR.jpg)
 
-<figcaption class="fig-plain">All walls but one (left) and the last wall glued (right)</figcaption>
+<figcaption>All walls but one (left) and the last wall glued (right)</figcaption>
 </figure>
 
 I re-added the left wall, filled everything with as much glue as I could and pushed the precisely
@@ -116,13 +116,13 @@ melt the glue, and then the whole thing might fall apart. But time will show...
 
 <figure>
 
-[![LEDs nearly off](VOLTCRAFT5_4_thumb_170x.png "LEDs nearly off")](VOLTCRAFT5_4.png)
-[![duty cycle < 50%](VOLTCRAFT5_1_thumb_170x.png "duty cycle < 50%")](VOLTCRAFT5_1.png)
-[![duty cycle about 50%](VOLTCRAFT5_2_thumb_170x.png "duty cycle about 50%")](VOLTCRAFT5_2.png)
-[![duty cycle > 50%](VOLTCRAFT5_3_thumb_170x.png "duty cycle > 50%")](VOLTCRAFT5_3.png)
-[![LEDs nearly on](VOLTCRAFT5_5_thumb_170x.png "LEDs nearly on")](VOLTCRAFT5_5.png)
+[![LEDs nearly off](VOLTCRAFT5_4_thumb_180x.png "LEDs nearly off")](VOLTCRAFT5_4.png) [![duty cycle
+\< 50%](VOLTCRAFT5_1_thumb_180x.png "duty cycle < 50%")](VOLTCRAFT5_1.png) [![duty cycle about
+50%](VOLTCRAFT5_2_thumb_180x.png "duty cycle about 50%")](VOLTCRAFT5_2.png) [![duty cycle \>
+50%](VOLTCRAFT5_3_thumb_180x.png "duty cycle > 50%")](VOLTCRAFT5_3.png) [![LEDs nearly
+on](VOLTCRAFT5_5_thumb_180x.png "LEDs nearly on")](VOLTCRAFT5_5.png)
 
-<figcaption class="fig-plain">
+<figcaption>
 From left to right: minimum brightness, duty cycle < 50%, ~50%, > 50%, maximum brightness
 </figcaption>
 </figure>
@@ -130,8 +130,12 @@ From left to right: minimum brightness, duty cycle < 50%, ~50%, > 50%, maximum b
 I hooked the dimmer up to some 3 white LEDs and a limiting resistor to test if everything worked
 okay.
 
+<figure class="fig-right">
+
 [![LEDs and
 oscilloscope](IMG_20140514_092834215_thumb.jpg "LEDs and oscilloscope")](IMG_20140514_092834215.jpg)
+
+</figure>
 
 It did;)
 
@@ -139,3 +143,5 @@ On the right side I present the voltage plots of the LEDs and resistor in series
 the frequency changes a bit with the duty cycle (the lower the duty cycle, the higher the
 frequency), but it's still within acceptable range. You can also see the plots for the edge
 positions of the pot (minimum and maximum brightness) on the left.
+
+<p class="endfloat" />

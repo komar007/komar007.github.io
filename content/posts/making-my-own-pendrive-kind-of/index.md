@@ -53,7 +53,6 @@ and cleaned the device thoroughly. Here are some photos of the finished work.
 [![final2](final2_thumb.jpg "final2")](final2.jpg)
 [![final1](final1_thumb.jpg "final1")](final1.jpg) [![final](final_thumb.jpg "final")](final.jpg)
 [![final4](final4_thumb.jpg "final4")](final4.jpg)
-
 [![final3](final3_thumb.jpg "final3")](final3.jpg)
 [![final6](final6_thumb.jpg "final6")](final6.jpg)
 [![final5](final5_thumb.jpg "final5")](final5.jpg)

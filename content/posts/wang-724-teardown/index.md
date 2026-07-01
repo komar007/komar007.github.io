@@ -59,7 +59,7 @@ You can also see the cable channels near the feet. They're angled at 45 degrees,
 all and they actually have nice mechanical clips for the cable. I haven't seen such a well designed
 case in any keyboard so far.
 
-<figure class="fig-right" style="width: 200px">
+<figure class="fig-right" style="width: 300px">
 
 [![speaker](speaker_thumb.jpg "speaker")](speaker.jpg)
 
@@ -70,11 +70,9 @@ a volume control pot. I'm not sure about this, but I think there's no way to con
 from a PC, it's rather internal to the keyboard. I didn't manage to find a way to switch it off
 though, the best you can do is to turn the volume down, which makes it barely audible.
 
-<p class="endfloat" />
-
 # Interior
 
-<figure class="fig-left" style="width: 200px;">
+<figure class="fig-left" style="width: 300px;">
 
 [![keyboard without top case](P1140596_thumb.jpg "keyboard without top case")](P1140596.jpg)
 

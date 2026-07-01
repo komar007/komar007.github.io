@@ -13,7 +13,7 @@ I've been getting many questions concerning the files for the latest revision of
 It took me a while to convert the KiCad files to the new version and do some final touches, but I
 hope it was worth the wait!
 
-[![PCB front](pcb_front_thumb.jpg "PCB front")](pcb_front.jpg)[![PCB
+[![PCB front](pcb_front_thumb.jpg "PCB front")](pcb_front.jpg) [![PCB
 back](pcb_back_thumb.jpg "PCB back")](pcb_back.jpg)
 
 All the development files are now available in the github repository
