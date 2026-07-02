@@ -5,6 +5,11 @@
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
     flake-parts.url = "github:hercules-ci/flake-parts";
     systems.url = "github:nix-systems/default";
+    apollo = {
+      url = "github:not-matthias/apollo";
+      inputs.flake-utils.inputs.systems.follows = "systems";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
   outputs =
@@ -14,16 +19,10 @@
       {
         systems = import inputs.systems;
         perSystem =
-          { pkgs, ... }:
+          { pkgs, system, ... }:
           let
             treefmtEval = inputs.treefmt-nix.lib.evalModule pkgs ./treefmt.nix;
 
-            apolloTheme = pkgs.fetchFromGitHub {
-              owner = "not-matthias";
-              repo = "apollo";
-              rev = "d78aa62f29edfeabbdc353c313fbb8af6a54d2c1";
-              hash = "sha256-1CcpnPbgE+Q+1O7SbrnXUENqZ5glj1woiVA7Jg1CRdI=";
-            };
             lightbox = pkgs.buildNpmPackage {
               pname = "lightbox";
               version = "1.1.0";
@@ -51,7 +50,7 @@
                 (pkgs.linkFarm "theme" [
                   {
                     name = "themes/apollo";
-                    path = apolloTheme;
+                    path = inputs.apollo.packages.${system}.default;
                   }
                 ])
                 (pkgs.linkFarm "lightbox" [
