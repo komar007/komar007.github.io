@@ -24,6 +24,13 @@ article p + ul, article p + ol {
   margin-top: 0.2em;
 }
 
+:root.dark .only-light {
+  display: none
+}
+:root.light .only-dark {
+  display: none
+}
+
 /* Images in links overrides */
 
 /* override apollo link underline - doesn't work well for image links */
