@@ -1,9 +1,11 @@
 +++
 title = "GH60 programmable keyboard"
+weight = 1
 date = 2013-02-01
-taxonomies.tags = ["imported", "keyboards"]
 
 [extra]
+local_image = "gh60-programmable-keyboard/ttt1.jpg"
+github = "https://github.com/komar007/gh60"
 comment = true
 +++
 GH60 is a custom programmable mechanical keyboard designed for the geekhack community.
@@ -25,20 +27,22 @@ A github repository with all the design files is here:
 
 # Articles
 
-- Introduction: [Introducing the GH60 keyboard project](../introducing-the-gh60-keyboard-project),
-- Changes in rev. B: [GH60 evolution](../gh60-evolution/).
-- Release of rev. C: [GH60 rev. C "plain edition" is out](../gh60-rev-c-plain-edition-is-out/)
+- Introduction: [Introducing the GH60 keyboard
+  project](../../posts/introducing-the-gh60-keyboard-project),
+- Changes in rev. B: [GH60 evolution](../../posts/gh60-evolution/).
+- Release of rev. C: [GH60 rev. C "plain edition" is
+  out](../../posts/gh60-rev-c-plain-edition-is-out/)
 
 # Downloads
 
 - ~~Revision A PCB gerbers, renders and schematic:
-  [gh60_reva](../introducing-the-gh60-keyboard-project/gh60_reva.zip) (license: CC BY-SA 3.0)~~
+  [gh60_reva](../../posts/introducing-the-gh60-keyboard-project/gh60_reva.zip) (license: CC BY-SA
+  3.0)~~
 - ~~Revision B PCB production files (gerbers, component placement, BOM):
   [pcbcart_gh60_rev_b_v2](pcbcart_gh60_rev_b_v2.zip) (license: CC BY-SA 3.0)~~
 - Revision C PCB and assembly files (package includes board renders and 3d model):
   [gh60_revC_plain](gh60_revC_plain.zip) (license: CC-BY-SA 3.0)
-- Revision C schematic:
-  [gh60_revC_2016-06-02](http://blog.komar.be/wp-content/uploads/2013/02/gh60_revC_2016-06-02.pdf)
+- Revision C schematic: [gh60_revC_2016-06-02](gh60_revC_2016-06-02.pdf)
 
 # Pictures
 

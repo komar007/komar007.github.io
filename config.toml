@@ -31,7 +31,8 @@ repo_view = true
 menu = [
     { name = "/posts", url = "/posts", weight = 1 },
     { name = "/tags", url = "/tags", weight = 2 },
-    { name = "$HOME", url = "/", weight = 3 },
+    { name = "/projects", url = "/projects", weight = 3 },
+    { name = "$HOME", url = "/", weight = 4 },
 ]
 
 [search]

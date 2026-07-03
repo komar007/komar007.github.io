@@ -113,7 +113,8 @@ There is also a [repository with all the CAD files](https://github.com/komar007/
 
 # Further reading
 
-You can read more about the project on the [GH60 project page](http://blog.komar.be/?page_id=478).
+You can read more about the project on the [GH60 project
+page](../projects/gh60-programmable-keyboard).
 
 ----------------------------------------------------------------------------------------------------
 

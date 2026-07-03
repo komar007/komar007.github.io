@@ -77,7 +77,7 @@
                 ''
                   cd $out
                   export PATH=$PATH:${pkgs.imagemagick}/bin
-                  ${pkgs.lib.getExe findImages} content/posts/*/*.md
+                  ${pkgs.lib.getExe findImages} content/posts/*/*.md content/projects/*/*.md
                 '';
             };
             updateEvalSrc = pkgs.writeShellApplication {
