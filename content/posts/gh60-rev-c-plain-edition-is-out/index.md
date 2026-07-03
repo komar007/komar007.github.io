@@ -1,7 +1,7 @@
 +++
 title = "GH60 rev. C \"plain edition\" is out"
 date = 2016-05-02
-taxonomies.tags = ["imported", "electronics", "keyboards", "kicad", "gh60"]
+taxonomies.tags = ["imported", "electronics", "keyboards", "gh60"]
 description = "The latest edition of my 60% keyboard PCB design is released"
 
 [extra]
