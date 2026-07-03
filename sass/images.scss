@@ -12,7 +12,7 @@
 // - more than 1 image/link can be used in a single <figure>, but it doesn't always look good.
 
 // outline for hovered image links and their captions (except plain captions)
-main a:hover img,
+main a:hover:not(.icon-button) img,
 main p:has(> a:only-child:hover)+figcaption:not(.fig-plain) {
   outline: 1mm solid var(--primary-color);
   outline-offset: 0;
