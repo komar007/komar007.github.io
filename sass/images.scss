@@ -104,3 +104,8 @@ main p.endfloat {
   height: 1em;
   border: 1px solid transparent;
 }
+
+main figure>figcaption:not(.fig-plain) code {
+  background-color: rgba(0, 0, 0, 0.03);
+  border-color: rgba(0, 0, 0, 0.15);
+}
