@@ -211,7 +211,7 @@ board with glossy white soldermask:
 >
 > Thanks
 
-<div style="padding-left: 4em;">
+<div class="reply">
 
 **komar** — *August 5, 2013 at 2:36 pm*
 
@@ -229,7 +229,7 @@ board with glossy white soldermask:
 > quality, small LOGOs for kicad and this is the best and most clever approach I've seen (that's a
 > clever little script). Nice work!
 
-<div style="padding-left: 4em;">
+<div class="reply">
 
 **komar** — *December 21, 2013 at 11:01 am*
 
@@ -253,7 +253,7 @@ board with glossy white soldermask:
 >
 > jay
 
-<div style="padding-left: 4em;">
+<div class="reply">
 
 **komar** — *March 29, 2014 at 9:17 am*
 
@@ -281,7 +281,7 @@ board with glossy white soldermask:
 >
 > Clyde
 
-<div style="padding-left: 4em;">
+<div class="reply">
 
 **komar** — *November 2, 2014 at 2:51 pm*
 
@@ -344,7 +344,7 @@ board with glossy white soldermask:
 >
 > Algen
 
-<div style="padding-left: 4em;">
+<div class="reply">
 
 **komar** — *March 24, 2015 at 7:37 pm*
 
@@ -360,7 +360,7 @@ board with glossy white soldermask:
 
 > hi mate i run cicada on a mac what is the best way for me to do this, edit the files?
 
-<div style="padding-left: 4em;">
+<div class="reply">
 
 **komar** — *November 5, 2015 at 7:52 pm*
 

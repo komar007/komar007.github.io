@@ -194,7 +194,7 @@ bars](P1140566_thumb.jpg "label bars")](P1140566.jpg)
 >
 > <http://deskthority.net/wiki/Matias_switch> (designed to work around this problem)
 
-<div style="padding-left: 4em;">
+<div class="reply">
 
 **komar** — *March 23, 2014 at 3:46 pm*
 

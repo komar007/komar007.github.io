@@ -403,7 +403,7 @@ parts and I'll start working on the next "episode".
 > components such as the Phantom PCB and the Teensy controller? In any case - very cool
 > explanations.
 
-<div style="padding-left: 4em;">
+<div class="reply">
 
 **komar** — *October 3, 2013 at 2:07 pm*
 
@@ -444,7 +444,7 @@ parts and I'll start working on the next "episode".
 > the switch which in turn connects to the columns. That is the opposite of what you say is the
 > right way to do it, so I am just looking at this wrong or does either way work?
 
-<div style="padding-left: 4em;">
+<div class="reply">
 
 **komar** — *October 1, 2014 at 2:50 pm*
 
@@ -475,13 +475,13 @@ parts and I'll start working on the next "episode".
 > but if i press sw2, sw3 and sw4... how, with diodes or not, can it know sw1 is not pressed? since
 > all matrix input pins in the controller will be pulled down.
 
-<div style="padding-left: 4em;">
+<div class="reply">
 
 **gabe** — *January 31, 2015 at 12:42 am*
 
 > it messed up my glorious ascii art... just imagine the numers around "swx" forms a matrix
 
-<div style="padding-left: 4em;">
+<div class="reply">
 
 **komar** — *February 9, 2015 at 10:43 pm*
 
@@ -518,7 +518,7 @@ parts and I'll start working on the next "episode".
 >
 > P.S.: sorry for my bad english.
 
-<div style="padding-left: 4em;">
+<div class="reply">
 
 **komar** — *March 24, 2015 at 7:34 pm*
 
@@ -527,7 +527,7 @@ parts and I'll start working on the next "episode".
 > thanks for your feedback, Roberto, I hope it will come out eventually, but I still haven't got
 > down to doing it yet.
 
-<div style="padding-left: 4em;">
+<div class="reply">
 
 **Roberto** — *April 7, 2015 at 8:58 am*
 
@@ -547,7 +547,7 @@ parts and I'll start working on the next "episode".
 > supposed to face the other direction (cathodes toward inputs). Is this a mistake or am I reading
 > it incorrectly?
 
-<div style="padding-left: 4em;">
+<div class="reply">
 
 **komar** — *July 29, 2015 at 7:12 pm*
 
@@ -601,7 +601,7 @@ parts and I'll start working on the next "episode".
 > that each column is pulled low and the rows are read. But how exactly does the controller rapidly
 > switch between columns without missing key presses? How fast does this need to be?
 
-<div style="padding-left: 4em;">
+<div class="reply">
 
 **komar** — *May 26, 2016 at 7:39 pm*
 
@@ -630,7 +630,7 @@ parts and I'll start working on the next "episode".
 >
 > Another interesting extension would be to review the various micro controller options available.
 
-<div style="padding-left: 4em;">
+<div class="reply">
 
 **komar** — *August 17, 2016 at 6:20 pm*
 
@@ -650,7 +650,7 @@ parts and I'll start working on the next "episode".
 > I wonder how the matrix of a keyboard like HHKB is organized. I am using a HHKB pro2 keyboard. It
 > has 5 rows in its layout. If it's a matrix design I guess there are 5 columns with 14-ish rows?
 
-<div style="padding-left: 4em;">
+<div class="reply">
 
 **komar** — *August 19, 2016 at 7:37 pm*
 

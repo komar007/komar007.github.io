@@ -82,7 +82,7 @@ may be hard. Fortunately, you can use existing devices to make what you want wit
 
 > where can i buy this "UDP flash chip" ? Can anyone suggest ??
 
-<div style="padding-left: 4em;">
+<div class="reply">
 
 **komar** — *November 17, 2014 at 9:12 am*
 

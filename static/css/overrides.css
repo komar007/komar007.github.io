@@ -54,6 +54,10 @@ dd::before {
   display: none
 }
 
+article div.reply {
+  padding-left: 4em;
+}
+
 /* Images in links overrides */
 
 /* override apollo link underline - doesn't work well for image links */

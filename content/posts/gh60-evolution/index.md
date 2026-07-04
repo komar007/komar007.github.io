@@ -247,7 +247,7 @@ production of rev. C for the geekhack group-buy.
 >
 > What do you think komar? I'd love to hear your thoughts.
 
-<div style="padding-left: 4em;">
+<div class="reply">
 
 **komar** — *March 6, 2014 at 11:35 pm*
 
@@ -276,7 +276,7 @@ production of rev. C for the geekhack group-buy.
 >
 > Thank you for your time. Jay
 
-<div style="padding-left: 4em;">
+<div class="reply">
 
 **komar** — *December 10, 2014 at 9:55 pm*
 

@@ -71,7 +71,7 @@ connector](P1150017_thumb_200x.jpg "GH60 USB connector")](P1150017.jpg)
 > cost one if  i whant one ?i am from romania ,what case of  keyboard do i need to use if try to
 > make one ? best regards
 
-<div style="padding-left: 4em;">
+<div class="reply">
 
 **komar** — *June 25, 2013 at 8:16 am*
 
@@ -87,7 +87,7 @@ connector](P1150017_thumb_200x.jpg "GH60 USB connector")](P1150017.jpg)
 
 > Hi I can't find atmega32u4-aur, you can use atmega32u4-au instead of?
 
-<div style="padding-left: 4em;">
+<div class="reply">
 
 **komar** — *November 18, 2013 at 5:42 pm*
 
@@ -114,7 +114,7 @@ connector](P1150017_thumb_200x.jpg "GH60 USB connector")](P1150017.jpg)
 >
 > Laci
 
-<div style="padding-left: 4em;">
+<div class="reply">
 
 **komar** — *December 11, 2013 at 7:43 pm*
 
@@ -126,7 +126,7 @@ connector](P1150017_thumb_200x.jpg "GH60 USB connector")](P1150017.jpg)
 >
 > Good luck on your keyboard project. I've subscribed and I'll be waiting.
 
-<div style="padding-left: 4em;">
+<div class="reply">
 
 **László Monda** — *December 11, 2013 at 10:40 pm*
 
@@ -144,7 +144,7 @@ connector](P1150017_thumb_200x.jpg "GH60 USB connector")](P1150017.jpg)
 
 > Hey, just wondering where the blue/grey keycaps were sourced from!
 
-<div style="padding-left: 4em;">
+<div class="reply">
 
 **komar** — *January 1, 2014 at 3:20 pm*
 
@@ -158,7 +158,7 @@ connector](P1150017_thumb_200x.jpg "GH60 USB connector")](P1150017.jpg)
 >
 > This default fn layer is killing, but i love this keyboard 🙂
 
-<div style="padding-left: 4em;">
+<div class="reply">
 
 **komar** — *January 6, 2014 at 10:24 pm*
 
@@ -171,7 +171,7 @@ connector](P1150017_thumb_200x.jpg "GH60 USB connector")](P1150017.jpg)
 > Where'd you get the keys used in the last image (the one with the orange spacebar)? I love the
 > font and colours used
 
-<div style="padding-left: 4em;">
+<div class="reply">
 
 **komar** — *March 21, 2014 at 11:55 pm*
 
@@ -183,7 +183,7 @@ connector](P1150017_thumb_200x.jpg "GH60 USB connector")](P1150017.jpg)
 
 > I take it these can't be bought anymore..
 
-<div style="padding-left: 4em;">
+<div class="reply">
 
 **komar** — *March 23, 2014 at 3:45 pm*
 
@@ -196,7 +196,7 @@ connector](P1150017_thumb_200x.jpg "GH60 USB connector")](P1150017.jpg)
 
 > How can I get a new GH60? I wanna build a keyboard by myself
 
-<div style="padding-left: 4em;">
+<div class="reply">
 
 **komar** — *March 29, 2014 at 9:14 am*
 
@@ -215,13 +215,13 @@ connector](P1150017_thumb_200x.jpg "GH60 USB connector")](P1150017.jpg)
 >
 > bukulin
 
-<div style="padding-left: 4em;">
+<div class="reply">
 
 **komar** — *July 2, 2014 at 9:23 pm*
 
 > Yes, there will be rev. C with a minor fix.
 
-<div style="padding-left: 4em;">
+<div class="reply">
 
 **bukulin** — *July 4, 2014 at 7:23 am*
 
@@ -235,7 +235,7 @@ connector](P1150017_thumb_200x.jpg "GH60 USB connector")](P1150017.jpg)
 
 > In the future, will be possible again to order this keyboard?
 
-<div style="padding-left: 4em;">
+<div class="reply">
 
 **komar** — *April 3, 2014 at 2:22 pm*
 
@@ -247,7 +247,7 @@ connector](P1150017_thumb_200x.jpg "GH60 USB connector")](P1150017.jpg)
 
 > Is it possible to have a pads version or can export to pads files?
 
-<div style="padding-left: 4em;">
+<div class="reply">
 
 **komar** — *May 20, 2014 at 7:44 pm*
 
@@ -259,7 +259,7 @@ connector](P1150017_thumb_200x.jpg "GH60 USB connector")](P1150017.jpg)
 
 > Where are the Rev c files posted?
 
-<div style="padding-left: 4em;">
+<div class="reply">
 
 **komar** — *October 14, 2014 at 8:36 pm*
 
@@ -282,7 +282,7 @@ connector](P1150017_thumb_200x.jpg "GH60 USB connector")](P1150017.jpg)
 >
 > Jay
 
-<div style="padding-left: 4em;">
+<div class="reply">
 
 **komar** — *December 10, 2014 at 9:55 pm*
 
@@ -309,7 +309,7 @@ connector](P1150017_thumb_200x.jpg "GH60 USB connector")](P1150017.jpg)
 > Hello Komar. may you help to build own gh60 keyboard. i will order pcb-plate at china. and i need
 > to order other parts at digikey.com. do you have list of electronic components for digikey.com???
 
-<div style="padding-left: 4em;">
+<div class="reply">
 
 **komar** — *January 3, 2015 at 9:03 pm*
 
@@ -322,7 +322,7 @@ connector](P1150017_thumb_200x.jpg "GH60 USB connector")](P1150017.jpg)
 > Hello. thanks for reply. in xls chart i cant find same diodes at digikey.com store. may be you can
 > write other diodes that analogs for used one.
 
-<div style="padding-left: 4em;">
+<div class="reply">
 
 **komar** — *January 6, 2015 at 7:03 pm*
 
@@ -337,7 +337,7 @@ connector](P1150017_thumb_200x.jpg "GH60 USB connector")](P1150017.jpg)
 > [<http://www.comchiptech.com/cms/UserFiles/CDSSC4148N-G%20RevA272973.pdf>](http://www.comchiptech.com/cms/UserFiles/CDSSC4148N-G%20RevA272973.pdf)
 > are they compatible and can be used in gh60 keyboard???
 
-<div style="padding-left: 4em;">
+<div class="reply">
 
 **komar** — *January 10, 2015 at 3:18 pm*
 
@@ -355,7 +355,7 @@ connector](P1150017_thumb_200x.jpg "GH60 USB connector")](P1150017.jpg)
 >
 > Thanks, Kyo
 
-<div style="padding-left: 4em;">
+<div class="reply">
 
 **komar** — *February 9, 2015 at 9:42 pm*
 
@@ -380,7 +380,7 @@ connector](P1150017_thumb_200x.jpg "GH60 USB connector")](P1150017.jpg)
 >
 > Thank you
 
-<div style="padding-left: 4em;">
+<div class="reply">
 
 **komar** — *February 9, 2015 at 9:56 pm*
 
@@ -403,7 +403,7 @@ connector](P1150017_thumb_200x.jpg "GH60 USB connector")](P1150017.jpg)
 
 > What PCB manufacturer did you go to for the GH60?
 
-<div style="padding-left: 4em;">
+<div class="reply">
 
 **ab** — *September 23, 2015 at 4:51 pm*
 
@@ -454,7 +454,7 @@ connector](P1150017_thumb_200x.jpg "GH60 USB connector")](P1150017.jpg)
 >
 > Thank you!
 
-<div style="padding-left: 4em;">
+<div class="reply">
 
 **komar** — *May 12, 2016 at 8:54 pm*
 
@@ -472,7 +472,7 @@ connector](P1150017_thumb_200x.jpg "GH60 USB connector")](P1150017.jpg)
 > What is the difference between version B and C version? C version currently have any serious bugs,
 > stable version?
 
-<div style="padding-left: 4em;">
+<div class="reply">
 
 **komar** — *May 21, 2016 at 7:48 pm*
 
@@ -497,7 +497,7 @@ connector](P1150017_thumb_200x.jpg "GH60 USB connector")](P1150017.jpg)
 
 > Are the UART pins broken out or used by the matrix?
 
-<div style="padding-left: 4em;">
+<div class="reply">
 
 **komar** — *August 17, 2016 at 6:14 pm*
 
@@ -516,7 +516,7 @@ connector](P1150017_thumb_200x.jpg "GH60 USB connector")](P1150017.jpg)
 > How about a hole for trackpoint, and all the relevant circuitry for supporting Trackpoint in the
 > next release? Maybe even add 4 M2 screw holes for mounting Trackpoint board directly on the PCB.
 
-<div style="padding-left: 4em;">
+<div class="reply">
 
 **komar** — *August 17, 2016 at 6:04 pm*
 
@@ -535,7 +535,7 @@ connector](P1150017_thumb_200x.jpg "GH60 USB connector")](P1150017.jpg)
 > Have there been any progress towards designing the expansion slot to support either bluetooth or
 > full switch backlighting?
 
-<div style="padding-left: 4em;">
+<div class="reply">
 
 **komar** — *August 17, 2016 at 6:03 pm*
 
@@ -581,7 +581,7 @@ connector](P1150017_thumb_200x.jpg "GH60 USB connector")](P1150017.jpg)
 >
 > Thanks
 
-<div style="padding-left: 4em;">
+<div class="reply">
 
 **komar** — *November 23, 2016 at 9:02 pm*
 

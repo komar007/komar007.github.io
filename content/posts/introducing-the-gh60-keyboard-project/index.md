@@ -127,7 +127,7 @@ page](../projects/gh60-programmable-keyboard).
 >
 > Thanks
 
-<div style="padding-left: 4em;">
+<div class="reply">
 
 **komar** — *June 19, 2013 at 4:20 pm*
 

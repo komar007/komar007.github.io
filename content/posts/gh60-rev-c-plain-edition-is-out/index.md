@@ -53,7 +53,7 @@ GB PCB at all.
 > Hey komar, my man.. listen, how's that keyboard tutorial coming out tho'? i kinda need to build a
 > cheap keyboard asap and need ur help.
 
-<div style="padding-left: 4em;">
+<div class="reply">
 
 **komar** — *November 23, 2016 at 8:59 pm*
 
@@ -79,7 +79,7 @@ GB PCB at all.
 >
 > Best Regards<br> M. Dang
 
-<div style="padding-left: 4em;">
+<div class="reply">
 
 **komar** — *January 14, 2017 at 9:57 pm*
 
