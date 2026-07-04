@@ -2,6 +2,7 @@
 a.social img[alt="printables"] {
   border-radius: 0;
 }
+
 .right-nav {
   font-family: monospace;
   font-size: 1.4em;
@@ -12,21 +13,27 @@ main.post-list .post-header p {
   margin-top: 0;
   margin-bottom: 0;
 }
+
 main.post-list .post-header .description code {
   font-size: 0.9em;
 }
 
 /* Article */
-article p:has(+ ul), article p:has(+ ol) {
+article p:has(+ ul),
+article p:has(+ ol) {
   margin-bottom: 0.2em;
 }
-article p + ul, article p + ol {
+
+article p+ul,
+article p+ol {
   margin-top: 0.2em;
 }
+
 
 :root.dark .only-light {
   display: none
 }
+
 :root.light .only-dark {
   display: none
 }
@@ -37,6 +44,7 @@ article p + ul, article p + ol {
 main a:has(> img) {
   border-bottom: none;
 }
+
 /* override apollo link red background - doesn't work well for image links */
 main a:has(> img):hover {
   background-color: transparent;
@@ -47,20 +55,23 @@ pre.giallo:has(code > span.giallo-l):not(:has(code > span.giallo-l ~ span.giallo
   padding-top: 2em;
   padding-bottom: 2em;
 }
+
 pre:not(.giallo) span.code-label,
 pre:not(.giallo) button.clipboard-button {
   display: none;
 }
 
 /* Tags */
-.post-header > div,
+.post-header>div,
 .meta {
   display: flow-root;
 }
+
 .meta-tags,
 .tags-h1 {
   float: right;
 }
+
 .tag {
   display: inline-block;
   padding: 0.1em 0.6em;
@@ -74,11 +85,12 @@ pre:not(.giallo) button.clipboard-button {
   color: var(--bg-0);
   text-decoration: none;
 }
+
 .tag:hover {
   opacity: 0.75;
 }
 
 /* Search box */
 .search-modal #modal-content {
-  box-shadow: 0 0 10px rgba(0,0,0,0.8);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
 }
