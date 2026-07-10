@@ -70,6 +70,26 @@ main a:has(> img):hover {
   background-color: transparent;
 }
 
+/* override `...` inside a link */
+/* FIXME: this doesn't look good when there is more than `...` in the link, for example [some `code`](...). */
+main a:has(> code:only-child) {
+  border-bottom: none;
+}
+
+main a:has(> code:only-child):hover {
+  background-color: transparent;
+}
+
+main a>code:only-child {
+  border-bottom: 2px solid var(--primary-color);
+}
+
+main a:hover>code:only-child {
+  background-color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  border-bottom: 2px solid var(--primary-color);
+}
+
 /* Code */
 pre.giallo:has(code > span.giallo-l):not(:has(code > span.giallo-l ~ span.giallo-l)) {
   padding-top: 2em;
