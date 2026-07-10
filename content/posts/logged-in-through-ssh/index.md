@@ -2,7 +2,7 @@
 title = "Logged in through ssh?"
 date = 2013-03-28
 description = "a hacky way of checking if a shell was spawned by the SSH daemon"
-taxonomies.tags = ["imported", "hack"]
+taxonomies.tags = ["imported", "hack", "dotfiles"]
 
 [extra]
 comment = true

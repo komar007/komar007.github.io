@@ -1,7 +1,7 @@
 +++
 title = '''Keep the git conflict "side" under cursor in (neo)vim'''
 date = 2026-06-26
-taxonomies.tags = ["git", "vim", "hack"]
+taxonomies.tags = ["git", "vim", "hack", "dotfiles"]
 extra.comment = true
 +++
 tl;dr `` mc?^\([=><\|]\)\1\{6\}<CR>d?^<<<<<<<?0<CR>/^\([=><\|]\)\1\{6\}<CR>d/^>>>>>>>/0<CR>`c ``
