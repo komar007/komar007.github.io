@@ -34,6 +34,12 @@ menu = [
     { name = "/projects", url = "/projects", weight = 3 },
 ]
 
+[extra.analytics]
+enabled = true
+
+[extra.analytics.goatcounter]
+user = "komar007"
+
 [search]
 include_title = true
 include_description = true
