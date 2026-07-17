@@ -5,8 +5,21 @@ date = 2013-02-01
 
 [extra]
 local_image = "cargo-lock-fetch/cover.png"
-github = "https://github.com/komar007/cargo-lock-fetch"
 comment = true
+
+[[extra.card_links]]
+url = "https://github.com/komar007/cargo-lock-fetch"
+icon = "github"
+text = "GitHub"
+
+[[extra.card_links]]
+url = "https://hub.docker.com/r/komar007/cargo-lock-fetch"
+icon = "dockerhub"
+text = "Docker Hub"
+
+[[extra.card_links]]
+url = "https://crates.io/crates/cargo-lock-fetch"
+text = "crates.io"
 +++
 [`cargo-lock-fetch`](https://crates.io/crates/cargo-lock-fetch) is a cargo plugin I wrote to solve a
 build issue at <https://www.adbglobal.com/> which would otherwise require manually specifying
