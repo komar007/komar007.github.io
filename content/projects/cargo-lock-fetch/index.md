@@ -1,7 +1,7 @@
 +++
 title = "cargo lock-fetch"
 weight = 10
-date = 2013-02-01
+date = 2026-07-06
 
 [extra]
 local_image = "cargo-lock-fetch/cover.png"
