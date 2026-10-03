@@ -8,8 +8,9 @@
 }
 
 .homepage-hero-title {
-    font-size: 3rem;
+    font-size: 2rem;
     margin-bottom: 1rem;
+    margin-top: 1.5rem;
 }
 
 .homepage-hero-subtitle {
