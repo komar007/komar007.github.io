@@ -15,6 +15,7 @@
     <main class="post-list">
         <h2>Recent posts</h2>
         {{ post_macros::list_posts(pages=posts_section.pages | slice(end=5)) }}
+        <a href="/posts">see all posts</a>
     </main>
     {% endif %}
 {% endblock main_content %}
