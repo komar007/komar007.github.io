@@ -1,7 +1,7 @@
 +++
 title = "How to make a keyboard - the matrix"
 date = 2013-09-02
-taxonomies.tags = ["imported", "keyboards", "electronics"]
+taxonomies.tags = ["imported", "keyboards", "electronics", "featured"]
 description = '''A relatively deep dive into keyboard matrix design'''
 
 [extra]

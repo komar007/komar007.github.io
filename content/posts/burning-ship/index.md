@@ -1,7 +1,7 @@
 +++
 title = "Burning ship"
 date = 2013-12-17
-taxonomies.tags = ["imported", "art"]
+taxonomies.tags = ["imported", "art", "featured"]
 
 [extra]
 comment = true
