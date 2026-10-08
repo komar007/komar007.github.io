@@ -41,7 +41,7 @@ vim.keymap.set('n', '<leader>gc',
 # Explanation
 
 > [!NOTE]
-> I have found ChatGPT suprisingly good at "understanding" and explaining this mapping, but I will
+> I have found ChatGPT surprisingly good at "understanding" and explaining this mapping, but I will
 > break it down anyway, because, well, I like breaking things down.
 
 First, find (up from the cursor) any conflict delimiter. That is
