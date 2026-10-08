@@ -14,8 +14,13 @@ main.post-list .post-header p {
   margin-bottom: 0;
 }
 
+main.post-list .post-header .description {
+  font-style: italic;
+}
+
 main.post-list .post-header .description code {
   font-size: 0.9em;
+  font-style: normal;
 }
 
 /* Article */
