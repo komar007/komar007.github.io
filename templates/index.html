@@ -18,4 +18,14 @@
         <a href="/posts">see all posts</a>
     </main>
     {% endif %}
+
+    {% set tags = get_taxonomy(kind="tags") %}
+    {% for term in tags.items %}
+        {% if term.name == "featured" %}
+            <main class="post-list">
+                <h2>Featured</h2>
+                {{ post_macros::list_posts(pages=term.pages) }}
+            </main>
+        {% endif %}
+    {% endfor %}
 {% endblock main_content %}
