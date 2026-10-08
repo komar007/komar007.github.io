@@ -109,3 +109,32 @@ main figure>figcaption:not(.fig-plain) code {
   background-color: rgba(0, 0, 0, 0.03);
   border-color: rgba(0, 0, 0, 0.15);
 }
+
+// Mobile (vertical/single-column, matching the theme's 992px breakpoint):
+// make every image span the full width and stop floated figures from floating.
+@media (max-width: 992px) {
+
+  main figure.fig-left,
+  main figure.fig-right {
+    float: none;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  // Full width, overriding the inline style="width: 300px" on some figures.
+  main figure {
+    display: block;
+    width: 100% !important;
+    max-width: 100%;
+    padding: 0;
+  }
+
+  main figure img {
+    width: 100%;
+    max-height: none;
+  }
+
+  main p img {
+    width: 100%;
+  }
+}
