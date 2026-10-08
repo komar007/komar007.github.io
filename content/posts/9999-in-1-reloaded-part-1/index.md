@@ -174,7 +174,7 @@ I assumed that pixel was on at the time, which later appeared true. Note how the
 Because the display is multiplexed, and the previous waveforms suggested there should be 8 groups,
 the pixel is actually driven 1/8<sup>th</sup> of the time. Each time it's driven in gets two pulses
 of opposite polarity, each about 3.8V (I have the device connected to a stabilized 3.3V supply),
-lasting 1.25 miliseconds each.
+lasting 1.25 milliseconds each.
 
 Then I went on probing the device, and noticed also a second type of waveforms:
 
@@ -223,7 +223,7 @@ analog comparator to test if the voltage is above 3V would probably do the trick
 the project here, because I dropped this idea sooner than I thought.
 
 Just for the record, what kind of capture rate would it have to have? The spike (both negative and
-positive) lasts 1.25 miliseconds, so trusting Shannon and Nyquist and probing 2 times faster than
+positive) lasts 1.25 milliseconds, so trusting Shannon and Nyquist and probing 2 times faster than
 that would probably be good enough. That is 1600 times per second. Now that has to be done for every
 pixel, and there are more than 200 of them, so if there was just one "probing cell", it would mean
 about 320 thousand samples per second. Certainly doable, even on a simple AVR.
