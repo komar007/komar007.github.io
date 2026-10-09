@@ -1,6 +1,6 @@
 base_url = "https://komar.blog"
 title = "~/komar"
-description = "A Zola example site with one converted post"
+description = "komar's techblog"
 compile_sass = true
 theme = "apollo"
 generate_feeds = true
