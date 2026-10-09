@@ -63,6 +63,22 @@ article div.reply {
   padding-left: 4em;
 }
 
+/* github icon next to github links */
+main article a[href^="https://github.com/"]:not(:has(> code))::before,
+main article a[href^="https://github.com/"]>code::before {
+  content: "";
+  padding: 0.5em;
+  margin: 0.1em 0.2em 0.1em 0.1em;
+  background-image: url("/icons/social/github.svg");
+  background-repeat: no-repeat;
+  background-position-y: center;
+}
+
+:root.dark main article a[href^="https://github.com/"]:not(:has(> code))::before,
+:root.dark main article a[href^="https://github.com/"]>code::before {
+  filter: invert(1);
+}
+
 /* Images in links overrides */
 
 /* override apollo link underline - doesn't work well for image links */
