@@ -11,7 +11,7 @@ comment = true
 GH60 is a custom programmable mechanical keyboard designed for the geekhack community.
 
 A github repository with all the design files is here:
-[komar007/gh60](https://github.com/komar007/gh60).
+[`komar007/gh60`](https://github.com/komar007/gh60).
 
 [![GH60 rev B](ttt1_thumb_1000x.jpg "GH60 rev B")](ttt1.jpg)
 

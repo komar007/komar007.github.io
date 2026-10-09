@@ -13,9 +13,8 @@ Ship. This will be very non-technical and non-scientific.
 <!-- more -->
 
 > [!NOTE]
-> **UPDATE 1/07/2026** The sources of the fractal browser used to generate every image in this post are available [on my
-> github](https://github.com/komar007/ssefract). It is an old project I did on studies. It crashes a
-> lot.
+> **UPDATE 1/07/2026** The sources of the fractal browser used to generate every image in this post
+> are available as [`komar007/ssefract`](https://github.com/komar007/ssefract).
 
 # A little theory
 

@@ -17,7 +17,7 @@ hope it was worth the wait!
 back](pcb_back_thumb.jpg "PCB back")](pcb_back.jpg)
 
 All the development files are now available in the github repository
-[komar007/gh60](https://github.com/komar007/gh60) (the name has changed, but your existing clones
+[`komar007/gh60`](https://github.com/komar007/gh60) (the name has changed, but your existing clones
 will still work with the old one). The files are licensed under
 [CC-BY-SA](https://creativecommons.org/licenses/by-sa/3.0/) (which you can see in the PCB artwork).
 
