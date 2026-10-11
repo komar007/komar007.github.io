@@ -101,7 +101,11 @@
               pname = "blog";
               version = "1.0.0";
 
-              nativeBuildInputs = [ pkgs.zola ];
+              nativeBuildInputs = [
+                pkgs.zola
+                # workaround: zola-0.23 panics without it - reqwest client is eagerly created on start.
+                pkgs.cacert
+              ];
 
               buildPhase = ''
                 shopt -s nullglob extglob
