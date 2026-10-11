@@ -1,12 +1,12 @@
 {% extends "base.html" %}
 
-{% macro content(page) %}
+{% component content(page: map, config: map) %}
     <div class="visible-element-observer-root" data-selector="main article p">
         <main>
             <article>
                 <div class="title">
                     {#<h1 class="title">{{ page.title }}</h1>#}
-                    {{ post_macros::page_header(title=page.title) }}
+                    {{<post.page_header title={page.title} />}}
 
                     <div class="meta">
                         {% if page.date %}
@@ -17,20 +17,20 @@
                             :: Updated on <time>{{ page.updated | date(format="%Y-%m-%d") }}</time>
                         {% endif %}
 
-                        {% if page.extra.read_time %}
+                        {% if page.extra?.read_time %}
                             :: <time>{{ page.reading_time }}</time> Min Read
                         {% endif %}
 
-                        {% if config.extra.word_count and page.word_count %}
+                        {% if config.extra?.word_count and page.word_count %}
                             :: {{ page.word_count }} Words
                         {% endif %}
 
                         {# View the page on GitHub #}
-                        {% if page.extra.repo_view | default(value=config.extra.repo_view) | default(value=false) %}
+                        {% if page.extra?.repo_view or config.extra?.repo_view %}
                             {# Use the page's repo_url if defined, otherwise use the global edit_repo_url #}
-                            {% if page.extra.repo_url is defined %}
+                            {% if page.extra?.repo_url %}
                                 {% set repo_url = page.extra.repo_url %}
-                            {% elif config.extra.repo_url is defined %}
+                            {% elif config.extra?.repo_url %}
                                 {% set repo_url = config.extra.repo_url %}
                             {% else %}
                                 {% set repo_url = false %}
@@ -43,9 +43,9 @@
                         {% endif %}
 
                         {# Inline display of authors directly after the date #}
-                        {% if page.taxonomies and page.taxonomies.authors %}
-                            {%- for author in page.taxonomies.authors %}
-                                <a href="{{ get_taxonomy_url(kind='authors', name=author, lang=page.lang) }}"
+                        {% if page.taxonomies?.authors %}
+                            {%- for author in page.taxonomies?.authors %}
+                                <a href="{{ get_taxonomy_url(kind='authors', term=author, lang=page.lang) }}"
                                    class="post-authors">{{ author }}</a>
                             {% endfor %}
                         {% endif %}
@@ -54,17 +54,17 @@
                             <span class="draft-label">DRAFT</span>
                         {% endif %}
 
-                        {% if page.taxonomies and page.taxonomies.tags %}
+                        {% if page.taxonomies?.tags %}
                             <span class="meta-tags">
-                                {% for tag in page.taxonomies.tags %}
-                                    <a class="tag" href="{{ get_taxonomy_url(kind="tags", name=tag) }}">{{ tag }}</a>
+                                {% for tag in page.taxonomies?.tags %}
+                                    <a class="tag" href="{{ get_taxonomy_url(kind="tags", term=tag) }}">{{ tag }}</a>
                                 {% endfor %}
                             </span>
                         {% endif %}
                     </div>
                 </div>
 
-                {% if page.extra.tldr %}
+                {% if page.extra?.tldr %}
                     <div class="tldr">
                         <strong>tl;dr:</strong>
                         {{ page.extra.tldr }}
@@ -77,15 +77,15 @@
             </article>
         </main>
     </div>
-{% endmacro content %}
+{% endcomponent content %}
 
 {% block main_content %}
-    {{ self::content(page=page) }}
+    {{<content page={page} config={config} />}}
 {% endblock main_content %}
 
 {% block right_content %}
     {# Optional table of contents #}
-    {% if config.extra.toc | default(value=false) and page.toc %}
+    {% if config.extra?.toc | default(value=false) and page?.toc %}
         {% include "partials/toc.html" %}
     {% endif %}
 {% endblock right_content %}

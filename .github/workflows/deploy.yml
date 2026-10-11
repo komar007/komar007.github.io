@@ -2,7 +2,7 @@ name: Deploy
 
 on:
   push:
-    branches: [main]
+    branches: [main, test_upgrade_zola_0_23]
 
 permissions:
   contents: read
