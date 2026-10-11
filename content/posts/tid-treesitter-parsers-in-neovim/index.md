@@ -26,8 +26,7 @@ declarative.
 I want my list of parsers committed and tracked by git.
 
 [`nvim-treesitter`](https://github.com/nvim-treesitter/nvim-treesitter) has everything needed to
-achieve this, so the solution is as simple as:
-([*view in context*](https://github.com/komar007/dot-nvim/blob/01a2b66c0e590547b8a506f24b91b2a37025f7e5/lua/plugins/treesitter.lua#L1-L16))
+achieve this, so the solution is as simple as [this function](https://github.com/komar007/dot-nvim/blob/01a2b66c0e590547b8a506f24b91b2a37025f7e5/lua/plugins/treesitter.lua#L1-L16), which can be implemented outside of the plugin:
 
 ```lua
 local function declare_parsers(parsers)
@@ -69,8 +68,8 @@ declare_parsers({
 })
 ```
 
-I also see no reason to not use a parser I declare installed, so as a bonus here's what I also do:
-[*view in context*](https://github.com/komar007/dot-nvim/blob/01a2b66c0e590547b8a506f24b91b2a37025f7e5/lua/plugins/treesitter.lua#L61-L75):
+I also see no reason to not use a parser I declare installed, so, as a bonus,
+[here's what I also do](https://github.com/komar007/dot-nvim/blob/01a2b66c0e590547b8a506f24b91b2a37025f7e5/lua/plugins/treesitter.lua#L61-L75):
 
 ```lua
 local group = vim.api.nvim_create_augroup("TreesitterHighlight", { clear = true })
