@@ -37,17 +37,8 @@ menu = [
 [extra.analytics]
 enabled = true
 
-# workaround: zola requires this even when umami not used, see https://github.com/not-matthias/apollo/pull/187
-[extra.analytics.umami]
-website_id = ""
-host_url = ""
-
 [extra.analytics.goatcounter]
 user = "komar007"
-
-# workaround: zola requires this even when umami not used, see https://github.com/not-matthias/apollo/pull/187
-[extra.analytics.google]
-tracking_id = ""
 
 [search]
 include_title = true
