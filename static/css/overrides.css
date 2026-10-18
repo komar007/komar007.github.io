@@ -64,8 +64,8 @@ article div.reply {
 }
 
 /* github icon next to github links */
-main article a[href^="https://github.com/"]:not(:has(> code))::before,
-main article a[href^="https://github.com/"]>code::before {
+main article a[href^="https://github.com/"]:not(.badge-link):not(:has(> code))::before,
+main article a[href^="https://github.com/"]:not(.badge-link)>code::before {
   content: "";
   padding: 0.5em;
   margin: 0.1em 0.2em 0.1em 0.1em;
