@@ -1,6 +1,7 @@
 +++
 title = "My way of handling PDFs in XMonad"
 date = 2012-11-26
+description = "How I organize and open PDFs in XMonad, and my search for the right PDF reader."
 taxonomies.tags = ["imported", "xmonad", "programming", "dotfiles"]
 
 [extra]

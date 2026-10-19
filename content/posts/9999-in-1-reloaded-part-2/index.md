@@ -1,6 +1,7 @@
 +++
 title = "9999 in 1 reloaded - part 2"
 date = 2012-09-10
+description = "Part 2 of reverse-engineering the LCD driver inside a COB device on a cheap \"9999 in 1\" videogame."
 taxonomies.tags = ["imported", "electronics"]
 
 [extra]

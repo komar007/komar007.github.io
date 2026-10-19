@@ -1,6 +1,7 @@
 +++
 title = "9999 in 1 reloaded - part 1"
 date = 2012-09-05
+description = "Part 1 of reverse-engineering the 9999 in 1 brick game."
 taxonomies.tags = ["imported", "electronics"]
 
 [extra]

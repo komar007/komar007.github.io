@@ -1,6 +1,7 @@
 +++
 title = '''Keep the git conflict "side" under cursor in (neo)vim'''
 date = 2026-06-26
+description = "Accept the git conflict side under the cursor in (neo)vim and remove the rest."
 taxonomies.tags = ["git", "vim", "hack", "dotfiles"]
 extra.comment = true
 +++

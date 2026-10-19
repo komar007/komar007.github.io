@@ -1,6 +1,7 @@
 +++
 title = "Introducing the GH60 keyboard project"
 date = 2013-01-23
+description = "Introducing the GH60, a 60% programmable mechanical keyboard project — what it is and who it's for."
 taxonomies.tags = ["imported", "keyboards", "electronics", "gh60"]
 
 [extra]

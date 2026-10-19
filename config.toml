@@ -1,6 +1,7 @@
 base_url = "https://komar.blog"
 title = "~/komar"
-description = "komar's techblog"
+description = "NixOS, Neovim, Rust and mechanical keyboards — build logs, teardowns and programming notes by Michał Trybus."
+author = "Michał Trybus"
 compile_sass = true
 theme = "apollo"
 generate_feeds = true

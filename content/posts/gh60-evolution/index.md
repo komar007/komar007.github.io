@@ -1,6 +1,7 @@
 +++
 title = "GH60 evolution"
 date = 2013-08-10
+description = "What has changed in the GH60 programmable keyboard project since my last post."
 taxonomies.tags = ["imported", "keyboards", "electronics", "gh60"]
 
 [extra]

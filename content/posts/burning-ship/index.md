@@ -1,6 +1,7 @@
 +++
 title = "Burning ship"
 date = 2013-12-17
+description = "A non-technical introduction to the Burning Ship, my longtime favorite complex plane fractal."
 taxonomies.tags = ["imported", "art", "featured"]
 
 [extra]

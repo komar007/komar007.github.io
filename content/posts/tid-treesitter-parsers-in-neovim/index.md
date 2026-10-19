@@ -1,6 +1,7 @@
 +++
 title = "Today I Declared: treesitter parsers in neovim"
 date = 2026-10-07
+description = "Declaring treesitter parsers in neovim instead of installing them."
 [taxonomies]
 tags = [ "neovim", "declarative"]
 [extra]

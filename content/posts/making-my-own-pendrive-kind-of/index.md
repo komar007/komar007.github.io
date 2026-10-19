@@ -1,6 +1,7 @@
 +++
 title = "Making my own pendrive (kind of)"
 date = 2013-06-19
+description = "Stripping an ugly, unneeded pendrive down to its PCB to make it smaller."
 taxonomies.tags = ["imported", "electronics", "hack"]
 
 [extra]
