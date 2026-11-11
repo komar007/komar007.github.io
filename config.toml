@@ -55,7 +55,7 @@ icon = "github"
 
 [[extra.socials]]
 name = "stackoverflow"
-url = "https://stackoverflow.com/users/308392/michał-trybus"
+url = "https://stackoverflow.com/users/michal-trybus"
 icon = "stack-overflow"
 
 [[extra.socials]]
